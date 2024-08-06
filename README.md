@@ -30,7 +30,6 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 17 | [17](./lessons/lecture-12.md) | text here |
 
 
------
 ### Your Teachers
 #### Nynne Just Christoffersen
 Software developer with a background in art and design history. She has most recently worked worked as a platform engineer at LEGO. She has a long history of teaching programming, among other places at the coding school called [Hack Your Future cph](https://www.hackyourfuture.dk/), The IT University and the Royal Academy of Arts Copenhagen. She is a regular contributor to the tech collective [Cybernauterne](https://cybernauterne.dk/). 
