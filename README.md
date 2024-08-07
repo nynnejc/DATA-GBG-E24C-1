@@ -36,30 +36,30 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 23 | 42 | 18/10 | Fall Holiday | no class | NA |
 | 24 | 43 | 21/10 | Project work | Group Work | Nynne |
 | 25 | 43 | 23/10 | [ArrayList](./lessons/lecture-12.md) | Searching methods For-Each-Loop and Wrapper classes | Nynne |
-| 26 | 43 | 25/10 | [Inheritance](./lessons/lecture-12.md) | Extending a class, Super- and Subclasses, overriding, Superclass | Aniko |
-| 26 | 44 | 28/10 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
-| 26 | 44 | 30/10 | [Classes & Objects Summary](./lessons/lecture-12.md) | What we've learned so far | Nynne |
-| 26 | 44 | 01/11 | Group Work | Group Work | Aniko |
-| 27 | 45 | 04/11 | Group Work | Group Work | Nynne |
-| 28 | 45 | 06/11 | Group Work | Group Work | Nynne |
-| 29 | 45 | 08/11 | Group Work | Group Work | Aniko |
-| 30 | 46 | 11/11 | Multidisciplinary Project | Obligatory Class Project | Nynne|
-| 31 | 46 | 13/11 | Multidisciplinary Project | Obligatory Class Project | Nynne |
-| 32 | 46 | 15/11 | Multidisciplinary Project | Obligatory Class Project | Aniko |
-| 33 | 47 | 18/11 | Multidisciplinary Project | Obligatory Class Project | Nynne |
-| 34 | 47 | 20/11 |  |  | Nynne |
-| 35 | 47 | 22/11 |  |  | Aniko |
-| 36 | 48 | 25/11 |  |  | Nynne |
-| 37 | 48 | 27/11 |  |  | Nynne |
-| 38 | 48 | 29/11 |  |  | Aniko |
-| 39 | 49 | 02/12 |  |  | Nynne |
-| 40 | 49 | 04/12 |  |  | Nynne |
-| 41 | 49 | 06/12 |  |  | Aniko |
-| 42 | 50 | 09/12 |  |  | Nynne |
+| 26 | 43 | 25/10 |  |  | Aniko |
+| 26 | 44 | 28/10 |  |  | Nynne |
+| 26 | 44 | 30/10 |  |  | Nynne |
+| 26 | 44 | 01/11 |  |  | Aniko |
+| 27 | 45 | 04/11 |  |  | Nynne |
+| 28 | 45 | 06/11 |  |  | Nynne |
+| 29 | 45 | 08/11 |  |  | Aniko |
+| 30 | 46 | 11/11 | [Inheritance](./lessons/lecture-12.md) | Extending a class, Super- and Subclasses, overriding, Superclass | Nynne|
+| 31 | 46 | 13/11 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
+| 32 | 46 | 15/11 | [ Classes & Objects Summary](./lessons/lecture-12.md) | What we've learned so far | Aniko |
+| 33 | 47 | 18/11 | Classes II | Summary | Nynne |
+| 34 | 47 | 20/11 | Group Work | Group Work | Nynne |
+| 35 | 47 | 22/11 | Group Work | Group Work | Aniko |
+| 36 | 48 | 25/11 | Group Work | Group Work | Nynne |
+| 37 | 48 | 27/11 | Group Work | Group Work | Nynne |
+| 38 | 48 | 29/11 | Group Work | Group Work | Aniko |
+| 39 | 49 | 02/12 | Multidisciplinary Project | Obligatory Class Project | Nynne |
+| 40 | 49 | 04/12 | Multidisciplinary Project | Obligatory Class Project | Nynne |
+| 41 | 49 | 06/12 | Multidisciplinary Project | Obligatory Class Project | Aniko |
+| 42 | 50 | 09/12 | Multidisciplinary Project | Obligatory Class Project | Nynne |
 | 43 | 50 | 11/12 | No Class | Class Cancelled | NA |
-| 44 | 50 | 13/12 |  |  | Aniko |
-| 45 | 51 | 16/12 |  |  | Nynne |
-| 46 | 51 | 18/12 |  |  || Nynne |
+| 44 | 50 | 13/12 | Multidisciplinary Project | Obligatory Class Project | Aniko |
+| 45 | 51 | 16/12 | Summary | What we've learned | Nynne |
+| 46 | 51 | 18/12 | Summary | What we've learned  | Nynne |
 
 
 ### Your Teachers
