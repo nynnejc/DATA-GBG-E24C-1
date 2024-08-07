@@ -28,35 +28,35 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 15 | 30/09 | [15](./lessons/lecture-12.md) | text here | x |
 | 16 | 02/10 | [16](./lessons/lecture-12.md) | text here | x |
 | 17 | 04/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 07/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 09/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 11/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 04/10 | Fall Holiday | text here | x |
-| 17 | 21/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 23/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 25/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 28/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 30/10 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 04/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 06/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 08/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 11/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 13/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 15/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 18/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 20/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 22/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 25/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 27/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 29/11 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 02/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 04/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 06/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 09/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 11/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 13/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 16/12 | [17](./lessons/lecture-12.md) | text here | x |
-| 17 | 08/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 18 | 07/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 19 | 09/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 20 | 11/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 21 | 04/10 | Fall Holiday | text here | x |
+| 22 | 21/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 23 | 23/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 24 | 25/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 25 | 28/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 26 | 30/10 | [17](./lessons/lecture-12.md) | text here | x |
+| 27 | 04/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 28 | 06/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 29 | 08/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 30 | 11/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 31 | 13/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 32 | 15/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 33 | 18/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 34 | 20/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 35 | 22/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 36 | 25/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 37 | 27/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 38 | 29/11 | [17](./lessons/lecture-12.md) | text here | x |
+| 39 | 02/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 40 | 04/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 41 | 06/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 42 | 09/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 43 | 11/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 44 | 13/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 45 | 16/12 | [17](./lessons/lecture-12.md) | text here | x |
+| 46 | 08/12 | [17](./lessons/lecture-12.md) | text here | x |
 
 
 ### Your Teachers
