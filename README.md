@@ -9,25 +9,25 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 
 *Learning outcome:* Students will become knowledgeable about basic methods, object-oriented programming and algorithms and data structure.
 
-| Week | Lesson | Deliverable |
-| --- | --- | --- |
-| 01 | [Introduction](./lessons/lecture-01.md) | text here |
-| 02 | [2](./lessons/lecture-02.md) | text here |
-| 03 | [3](./lessons/lecture-03.md) | text here |
-| 04 | [4](./lessons/lecture-04.md) | text here |
-| 05 | [5](./lessons/lecture-05.md)| text here |
-| 06 | [6](./lessons/lecture-06.md) | text here |
-| 07 | [7](./lessons/lecture-07.md) | text here |
-| 08 | [8](./lessons/lecture-08.md) | text here |
-| 09 | [9](./lessons/lecture-09.md) | text here |
-| 10 | [10](./lessons/lecture-10.md) | text here |
-| 11 | [11](./lessons/lecture-10.md) | text here |
-| 12 | [12](./lessons/lecture-11.md) | text here |
-| 13 | [13](./lessons/lecture-12.md) | text here |
-| 14 | [14](./lessons/lecture-12.md) | text here |
-| 15 | [15](./lessons/lecture-12.md) | text here |
-| 16 | [16](./lessons/lecture-12.md) | text here |
-| 17 | [17](./lessons/lecture-12.md) | text here |
+| Week | Date | Lesson | Deliverable | Teacher |
+| --- | --- | --- | --- | --- |
+| 01 | x | [Introduction](./lessons/lecture-01.md) | text here | x |
+| 02 | x | [2](./lessons/lecture-02.md) | text here | x |
+| 03 | x | [3](./lessons/lecture-03.md) | text here | x |
+| 04 | x | [4](./lessons/lecture-04.md) | text here | x |
+| 05 | x | [5](./lessons/lecture-05.md)| text here | x |
+| 06 | x | [6](./lessons/lecture-06.md) | text here | x |
+| 07 | x | [7](./lessons/lecture-07.md) | text here | x |
+| 08 | x | [8](./lessons/lecture-08.md) | text here | x |
+| 09 | x | [9](./lessons/lecture-09.md) | text here | x |
+| 10 | x | [10](./lessons/lecture-10.md) | text here | x |
+| 11 | x | [11](./lessons/lecture-10.md) | text here | x |
+| 12 | x | [12](./lessons/lecture-11.md) | text here | x |
+| 13 | x | [13](./lessons/lecture-12.md) | text here | x |
+| 14 | x | [14](./lessons/lecture-12.md) | text here | x |
+| 15 | x | [15](./lessons/lecture-12.md) | text here | x |
+| 16 | x | [16](./lessons/lecture-12.md) | text here | x |
+| 17 | x | [17](./lessons/lecture-12.md) | text here | x |
 
 
 ### Your Teachers
