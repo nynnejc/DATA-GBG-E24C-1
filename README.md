@@ -26,32 +26,32 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 13 | 39 | 25/09 | [Arrays](./lessons/lecture-12.md) | Array, constructing and traversing | Nynne |
 | 14 | 39 | 27/09 | [Arrays continued Exercises](./lessons/lecture-12.md) | Arrays and Methods For-Each-Loop and Printing, Searching | Aniko |
 | 15 | 40 | 30/09 | [Arrays continued](./lessons/lecture-12.md) | Array Excercise | Nynne |
-| 16 | 40 | 02/10 | [Introduktion til IntelliJ & Github](./lessons/lecture-12.md) | Installation and sign up | Nynne |
-| 17 | 40 | 04/10 | [Classes & Objects](./lessons/lecture-12.md) | States, Behaviour, Constructors, Accessors, Mutators, This | Aniko |
-| 18 | 41 | 07/10 | [Classes & Objects, continued](./lessons/lecture-12.md) | Encapsulation, Instance methods, This | Nynne |
-| 19 | 41 | 09/10 | Project work | Group Work | Nynne |
-| 20 | 41 | 11/10 | Project work  | Group Work | Aniko |
+| 16 | 40 | 02/10 | [Classes & Objects](./lessons/lecture-12.md) | States, Behaviour, Constructors, Accessors, Mutators, This | Nynne |
+| 17 | 40 | 04/10 | [Classes & Objects, continued](./lessons/lecture-12.md) | Encapsulation, Instance methods, This | Aniko |
+| 18 | 41 | 07/10 | Summary: Data types, methods, loops | What we've learned so far | Nynne |
+| 19 | 41 | 09/10 | [Introduktion to Github](./lessons/lecture-12.md) | Installation and sign up | Nynne |
+| 20 | 41 | 11/10 | [Introduktion to IntelliJ](./lessons/lecture-12.md) | Installation and sign up | Aniko |
 | 21 | 42 | 14/10 | Fall Holiday | no class | NA |
 | 22 | 42 | 16/10 | Fall Holiday | no class | NA |
 | 23 | 42 | 18/10 | Fall Holiday | no class | NA |
 | 24 | 43 | 21/10 | Project work | Group Work | Nynne |
-| 25 | 43 | 23/10 | [ArrayList](./lessons/lecture-12.md) | Searching methods For-Each-Loop and Wrapper classes | Nynne |
-| 26 | 43 | 25/10 |  |  | Aniko |
-| 26 | 44 | 28/10 |  |  | Nynne |
-| 26 | 44 | 30/10 |  |  | Nynne |
-| 26 | 44 | 01/11 |  |  | Aniko |
-| 27 | 45 | 04/11 |  |  | Nynne |
+| 25 | 43 | 23/10 | Project work  | Group Work | Aniko | Nynne |
+| 26 | 43 | 25/10 | Project work  | Group Work | Aniko | Aniko |
+| 26 | 44 | 28/10 | Project work  | Group Work | Nynne |
+| 26 | 44 | 30/10 | [ArrayList](./lessons/lecture-12.md) | Searching methods For-Each-Loop and Wrapper classes | Nynne |
+| 26 | 44 | 01/11 | [Inheritance](./lessons/lecture-12.md) | Extending a class, Super- and Subclasses, overriding, Superclass | Aniko |
+| 27 | 45 | 04/11 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
 | 28 | 45 | 06/11 |  |  | Nynne |
 | 29 | 45 | 08/11 |  |  | Aniko |
-| 30 | 46 | 11/11 | [Inheritance](./lessons/lecture-12.md) | Extending a class, Super- and Subclasses, overriding, Superclass | Nynne|
-| 31 | 46 | 13/11 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
+| 30 | 46 | 11/11 |  |  | Nynne|
+| 31 | 46 | 13/11 |  |  | Nynne |
 | 32 | 46 | 15/11 | [ Classes & Objects Summary](./lessons/lecture-12.md) | What we've learned so far | Aniko |
-| 33 | 47 | 18/11 | Classes II | Summary | Nynne |
+| 33 | 47 | 18/11 | Group Work | Group Work | Nynne |
 | 34 | 47 | 20/11 | Group Work | Group Work | Nynne |
 | 35 | 47 | 22/11 | Group Work | Group Work | Aniko |
 | 36 | 48 | 25/11 | Group Work | Group Work | Nynne |
 | 37 | 48 | 27/11 | Group Work | Group Work | Nynne |
-| 38 | 48 | 29/11 | Group Work | Group Work | Aniko |
+| 38 | 48 | 29/11 | Multidisciplinary Project | Obligatory Class Project | Aniko |
 | 39 | 49 | 02/12 | Multidisciplinary Project | Obligatory Class Project | Nynne |
 | 40 | 49 | 04/12 | Multidisciplinary Project | Obligatory Class Project | Nynne |
 | 41 | 49 | 06/12 | Multidisciplinary Project | Obligatory Class Project | Aniko |
