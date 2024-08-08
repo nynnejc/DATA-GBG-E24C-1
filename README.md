@@ -28,7 +28,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 15 | 40 | 30/09 | [Arrays continued](./lessons/lecture-12.md) | Array Excercise | Nynne |
 | 16 | 40 | 02/10 | [Classes & Objects](./lessons/lecture-12.md) | States, Behaviour, Constructors, Accessors, Mutators, This | Nynne |
 | 17 | 40 | 04/10 | [Classes & Objects, continued](./lessons/lecture-12.md) | Encapsulation, Instance methods, This | Aniko |
-| 18 | 41 | 07/10 | Summary: Data types, methods, loops | What we've learned so far | Nynne |
+| 18 | 41 | 07/10 | Constructors | Initializing an object | Nynne |
 | 19 | 41 | 09/10 | [Introduktion to Github](./lessons/lecture-12.md) | Installation and sign up | Nynne |
 | 20 | 41 | 11/10 | [Introduktion to IntelliJ](./lessons/lecture-12.md) | Installation and sign up | Aniko |
 | 21 | 42 | 14/10 | Fall Holiday | no class | NA |
@@ -43,7 +43,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 27 | 45 | 04/11 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
 | 28 | 45 | 06/11 | Methods | Organizing code into reusable chunks | Nynne |
 | 29 | 45 | 08/11 | Methods II | Organizing code into reusable chunks | Aniko |
-| 30 | 46 | 11/11 | Structoring code with functions | Class and function structure | Nynne|
+| 30 | 46 | 11/11 | Summary: Data types, methods, loops | What we've learned so far | Nynne|
 | 31 | 46 | 13/11 | Public, private and protected data | Access modifiers in Java | Nynne |
 | 32 | 46 | 15/11 | [ Classes & Objects Summary](./lessons/lecture-12.md) | What we've learned so far | Aniko |
 | 33 | 47 | 18/11 | Group Work | Group Work | Nynne |
