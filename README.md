@@ -41,10 +41,10 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 26 | 44 | 30/10 | [ArrayList](./lessons/lecture-12.md) | Searching methods For-Each-Loop and Wrapper classes | Nynne |
 | 26 | 44 | 01/11 | [Inheritance](./lessons/lecture-12.md) | Extending a class, Super- and Subclasses, overriding, Superclass | Aniko |
 | 27 | 45 | 04/11 | [Inheritance II](./lessons/lecture-12.md) | Interface Polymorphism | Nynne |
-| 28 | 45 | 06/11 |  |  | Nynne |
-| 29 | 45 | 08/11 |  |  | Aniko |
-| 30 | 46 | 11/11 |  |  | Nynne|
-| 31 | 46 | 13/11 |  |  | Nynne |
+| 28 | 45 | 06/11 | Methods | Organizing code into reusable chunks | Nynne |
+| 29 | 45 | 08/11 | Methods II | Organizing code into reusable chunks | Aniko |
+| 30 | 46 | 11/11 | Structoring code with functions | Class and function structure | Nynne|
+| 31 | 46 | 13/11 | Public, private and protected data | Access modifiers in Java | Nynne |
 | 32 | 46 | 15/11 | [ Classes & Objects Summary](./lessons/lecture-12.md) | What we've learned so far | Aniko |
 | 33 | 47 | 18/11 | Group Work | Group Work | Nynne |
 | 34 | 47 | 20/11 | Group Work | Group Work | Nynne |
