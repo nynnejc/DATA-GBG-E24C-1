@@ -15,7 +15,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | --- | --- | --- | --- | --- |
 | 01 - Wednesday | 28/08 | [Introduction to first semester programming](./lessons/week-01/2-wednesday.md) | Hello World! | Nynne |
 | 01 - Friday | 30/08 | [Primitive Data and Definite Loops](./lessons/week-01/3-friday.md) | Primitive types, Expressions, Operators, Variables For-loop, Naming Conventions | Aniko |
-| 02 - Monday | 02/09 | [Variables, operators and expressions](./lessons/week-02/1-monday.md) | Nested for loop, Scope, Constants & Pseudocode | Nynne |
+| 02 - Monday | 02/09 | [Variables, operators and expressions](./lessons/week-02/1-monday.md) | Storing data | Nynne |
 | 02 - W | 04/09 | [ASCII figures](./lessons/week-02/2-wednesday.md/) | forloop excercise | Nynne |
 | 02 - F | 06/09 | [Introduction to Parameters](./lessons/week-02/3-friday.md) | Methods (Parameters, passing a parameter) Methods (return value) Math.class | Aniko |
 | 03 - M | 09/09 | [Scanner](./lessons/week-03/1-monday.md) | Scan object and input from keybard | Nynne |
