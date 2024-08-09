@@ -71,3 +71,4 @@ Software developer with a background in art and design history. She has most rec
 https://nynnechristoffersen.com/
 
 #### Aniko Zsigri
+Aniko is from Hungary. She has a candidate in electronics engineering. She has worked several years in DTU as a research assistant. After DTU she has worked as a software developer approximately 10 years, where she has mostly worked with c# programmering language. The last 10 years Aniko was teaching in a HTX gymnasium programming, Technology, Technology, Mathematics and Physics subjects. In the gymnasium she teached python and made robots with the help of Arduino.  
