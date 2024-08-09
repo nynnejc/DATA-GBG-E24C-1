@@ -16,9 +16,9 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 01 - Wednesday | 28/08 | [Introduction to first semester programming](./lessons/week-01/2-wednesday.md) | Hello World! | Nynne |
 | 01 - Friday | 30/08 | [Primitive Data and Definite Loops](./lessons/week-01/3-friday.md) | Primitive types, Expressions, Operators, Variables For-loop, Naming Conventions | Aniko |
 | 02 - Monday | 02/09 | [Variables, operators and expressions](./lessons/week-02/1-monday.md) | Storing data | Nynne |
-| 02 - W | 04/09 | [ASCII figures](./lessons/week-02/2-wednesday.md/) | forloop excercise | Nynne |
+| 02 - W | 04/09 | [Loops](./lessons/week-02/2-wednesday.md/) | ASCII figures | Nynne |
 | 02 - F | 06/09 | [Introduction to Parameters](./lessons/week-02/3-friday.md) | Methods (Parameters, passing a parameter) Methods (return value) Math.class | Aniko |
-| 03 - M | 09/09 | [Scanner](./lessons/week-03/1-monday.md) | Scan object and input from keybard | Nynne |
+| 03 - M | 09/09 | [Workin with Inputs](./lessons/week-03/1-monday.md) | Scan object and input from keybard | Nynne |
 | 03 - W | 11/09 | [Conditionals and Boolean](./lessons/week-03/2-wednesday.md) | IF-ELSE, Relational Operators, Object equality | Nynne |
 | 03 - F | 13/09 | [Cumulative Algorithms, Switch, sentinel loop, while loop](./lessons/week-03/3-friday.md) | Summarizing numbers, and looping | Aniko |
 | 04 - M | 16/09 | [Strings](./lessons/week-04/1-monday.md) | Printf, Text processing | Nynne |

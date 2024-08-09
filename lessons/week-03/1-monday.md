@@ -1,4 +1,4 @@
-# Scanner - Workin with inputs
+# Workin with inputs
 
 Watch this video as support 👇
 

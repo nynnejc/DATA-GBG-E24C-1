@@ -1,7 +1,7 @@
 # Introduction
 
 
-## ![Why do we write code?](../../assets/toast.png)
+![Why do we write code?](../../assets/toast.png)
 
 # Problem solving
 
