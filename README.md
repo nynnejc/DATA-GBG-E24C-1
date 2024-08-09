@@ -25,7 +25,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 04 - W | 18/09 | [Program Logic and Indefinite Loops](./lessons/week-04/2-wednesday.md) | WHILE-loop, Random number, Primitive type Boolean | Nynne |
 | 04 - F | 20/09 | [BlackjackDiceGame](./lessons/week-04/3-friday.md) | Game excercise | Aniko |
 | 05 - M | 23/09 | [Working with files](./lessons/week-05/1-monday.md) | Advanced file processing | Nynne |
-| 05 - W | 25/09 | [Arrays](./lessons/week-05/2-wednesday.dk) | Array, constructing and traversing | Nynne |
+| 05 - W | 25/09 | [Arrays](./lessons/week-05/2-wednesday.md) | Array, constructing and traversing | Nynne |
 | 05 - F | 27/09 | [Arrays continued Exercises](./lessons/week-05/3-friday.md) | Arrays and Methods For-Each-Loop and Printing, Searching | Aniko |
 | 06 - M | 30/09 | [Arrays continued](./lessons/week-06/1-monday.md) | Array Excercise | Nynne |
 | 06 - W | 02/10 | [Classes & Objects](./lessons/week-06/2-wednesday.md]) | States, Behaviour, Constructors, Accessors, Mutators, This | Nynne |
