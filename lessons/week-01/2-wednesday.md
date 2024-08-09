@@ -1,109 +1,85 @@
-# Monday
-
-## Introduktion
-
-### Datamatikeruddannelsen
-
-Hvad vil det sige at være datamatiker? It fagets håndværker. Datamatikeren kender til mange forskellige aspekter af software udvikling, men er praktisk funderet!
+# Introduction
 
 
+## ![Why do we write code?](../../assets/toast.png)
 
+# Problem solving
 
-**Overordnet struktur**
-
-![Overordnet struktur](../../assets/uddannelses-overblik.png)
+As a programmer most of the time we are solving problems. We get a problem and we need to be the ones that figures out the solution for that problem. Instead of just trying something out to solve the problem we will here give you a framework for solving problmes!
 
 
 
-![Datamatiker skema](../../assets/datamatiker-skema.png)
+### Understand
+
+The first part of solving a problem is understanding the problem. Here are two quotes that stress the importance of understanding your problem
+
+> “If you can’t explain something in simple terms, you don’t understand it.” — Richard Feynman
 
 
 
-#### Eksamen
+> “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” - Albert Einstein
 
-Mundtlig eksamen i 20 min inkl. votering, udfra spørgsmål i læringsmålene. Typisk 15 min. Man trækker et spørgsmål og så går man igang. 
+So we need to understand the problem before trying to solve it. It makes intuitive sense but what we see is that novice students often spend to little time understanding. To help you understand a problem try some of these methods
 
-
-
-#### Generelt om datamatiker uddannelsen
-
-- Ca 400 studerende
-- ca. 20 undervisere
-- Uddannelseschef - Lars Bogetoft
-- Studiesekretær - Marie og Heidi
-- Studievejleder - Berit Bergman
-- Praktikvejleder - Gitte Juul
+- Write the problem down
+- Doodle a diagram
+- Tell someone else about your problem
+- Or use [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) (this technique has helped me many many times)
 
 
 
-#### Obligatoriske opgaver (bundne forudsætninger)
+### Plan
 
-- 3 i programmering
-- 2 i systemudvikling
-- 1 i virksomhed
+When we truly understand the problem as well as we can, we need to plan for fixing the problem. 
 
-**De opgaver skal afleveres for at kunne gå til eksamen**
+Planning gives your brain time to analyze the problem and properly process the information. It is a task that is not done often enough especially among novice programmers. Novice programmers have a tendency to just start solving a problem. This typically affect the solution that in turn has not been structured well/thought through/have problems.
 
-Der er desuden en studiestartsprøve ca 5 uger efter start
+So how should a plan be made then? It's up to you. Typically just writing down in steps how you are going to solve the problem is sufficient. Another helpful tool when planning writing some software is [writing pseudo code](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/) 
 
 
 
-#### Kommunikation
+### Divide
 
-- Fronter - [https://kea-fronter.itslearning.com](https://kea-fronter.itslearning.com/)
-  - Semesterplan, bogliste, materialer, opgaver (**HVAD KOMMER VI TIL AT HAVE HVOR???**)
-  - Jobannoncer
+By this stage the you should have a clear understanding of the problem and an overall plan for how you will fix the problem. 
 
+Now we need to divide the problem into smaller subproblems.
 
+Dividing a problem into smaller subproblems can help solve a problem becuase smaller subproblems are easier to fix than larger problems. When you have solved all the subproblems, connect the dots. 
 
-- E-mail 
-  - Al e-mail kommunikation er via din KEA mail
-  - Du kan opsætte mail forwarding fra din KEA mail til privat email
+> “If I could teach every beginning programmer one problem-solving skill, it would be the ‘reduce the problem technique.’
 
+An example could be to figure out how many ping pong balls can fit in a car. Let's first figure out how many ping pong balls can be in a qubic meter using a divide tactic 👇
 
-
-- SMS
-
-  - Tilføj mobilnummer: ums.kea.dk
-
-  
-
-- KEAplan 
-
-  - http://keaplan.kea.dk
-  
-    
-
-### Semesterplan
-
-Hele semesterplanen ligger online på den her side: https://behu.gitbook.io/java-first-semester/
-
-Udover det kan i under `lessons` se hvad der specifikt skal arbejdes med på en bestemt dag.  Alle emnerne kan i læse om under `topics`. 
-
-Vi kommer til at have nogle forskellige moduler der hver især får jer tættere på at blive dygtige udviklere. 
-
-Modulerne er
-
-1. Introduction
-2. Basics
-3. Programflow
-4. Object oriented programming
-5. Datastructures and algorithms
-6. Software development
+- Hmm that's tough but how many can be in a qubic decimetre. Probably around 9 or 10
+- So in a cubic meter there would be 10.000 ping pong balls
+- How many cubic meter fits in a car? Maybe around 30, depends on the size.
+- Okay so 30 * 10.000 is 300.000 ping pong balls in a car
 
 
 
-## Codelab
 
-Der er lektiecafe i det der hedder Codelab. Her kan i få hjælp af nogle studerende der er længere i forløbet end jer. 
 
-https://kea.dk/om-kea/nyheder/kodev%C3%A6rksted-hitter-hos-datamatikere
+## Exercises
 
-## Opgaver
+- Hvor mange frisører er der i københavn?
+- Hvor mange myrer er der i en koloni?
+- Hvor mange klaverstemmere er der i Tyskland?
 
-I jeres studiegrupper skal i lave de her 3 opgaver 👇
+- What angle does an hour hand describe in 20 minutes?
+- Two circles have radius equal to 2 cm and 3 cm. The distance between their centres is 4 cm. Do they interact?
+- A can of kerosene weighs 8 kg. Half the kerosene is poured out of it, after which the can weighs 4.5 kg. What is the weight of the empty can? 
+- What time is it now if the time which passed since noon constitutes a third of the time that remains until midnight?
 
-- Tegn 20 æbler øvelser - 10 min
-- Conditional beach - de forskellige i gruppen får forskellige farver. De skal på skift sætte prikken længst væk fra en anden prik - 10 min
-  - Skriv ned hvordan i ville forklare/give instrukser til en maskine om at skulle køre lege den her leg!
-- Barcode exercise https://csunplugged.org/en/at-home/unlocking-the-secret-in-product-codes/ - 30 min
+
+
+Harvard questions:
+
+![Harvard entry question](../../assets/harvard-entry-question.png)
+
+
+
+![Oxford question](../../assets/oxford-questions-1.png)
+
+
+
+![Oxford question 2](../../assets/oxford-question-3.png)

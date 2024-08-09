@@ -19,7 +19,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 02 - W | 04/09 | [ASCII figures](./lessons/week-02/2-wednesday.md/) | forloop excercise | Nynne |
 | 02 - F | 06/09 | [Introduction to Parameters](./lessons/week-02/3-friday.md) | Methods (Parameters, passing a parameter) Methods (return value) Math.class | Aniko |
 | 03 - M | 09/09 | [Scanner](./lessons/week-03/1-monday.md) | Scan object and input from keybard | Nynne |
-| 03 - W | 11/09 | [Conditional Execution](./lessons/week-03/2-wednesday.md) | IF-ELSE, Relational Operators, Object equality | Nynne |
+| 03 - W | 11/09 | [Conditionals and Boolean](./lessons/week-03/2-wednesday.md) | IF-ELSE, Relational Operators, Object equality | Nynne |
 | 03 - F | 13/09 | [Cumulative Algorithms, Switch, sentinel loop, while loop](./lessons/week-03/3-friday.md) | Summarizing numbers, and looping | Aniko |
 | 04 - M | 16/09 | [Strings](./lessons/week-04/1-monday.md) | Printf, Text processing | Nynne |
 | 04 - W | 18/09 | [Program Logic and Indefinite Loops](./lessons/week-04/2-wednesday.md) | WHILE-loop, Random number, Primitive type Boolean | Nynne |
