@@ -447,6 +447,3 @@ Input number of rows (half of the diamond):
 
 
 
-### More exercises here
-
-https://www.codesdope.com/practice/java-decide-if-or-else/

@@ -22,9 +22,9 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 03 - W | 11/09 | [Conditionals and Boolean](./lessons/week-03/2-wednesday.md) | IF-ELSE, Relational Operators, Object equality | Nynne |
 | 03 - F | 13/09 | [Cumulative Algorithms, Switch, sentinel loop, while loop](./lessons/week-03/3-friday.md) | Summarizing numbers, and looping | Aniko |
 | 04 - M | 16/09 | [Strings](./lessons/week-04/1-monday.md) | Printf, Text processing | Nynne |
-| 04 - W | 18/09 | [Program Logic and Indefinite Loops](./lessons/week-04/2-wednesday.md) | WHILE-loop, Random number, Primitive type Boolean | Nynne |
+| 04 - W | 18/09 | [Strings II](./lessons/week-04/2-wednesday.md) | WHILE-loop, Random number, Primitive type Boolean | Nynne |
 | 04 - F | 20/09 | [BlackjackDiceGame](./lessons/week-04/3-friday.md) | Game excercise | Aniko |
-| 05 - M | 23/09 | [Working with files](./lessons/week-05/1-monday.md) | Advanced file processing | Nynne |
+| 05 - M | 23/09 | [Working with Files](./lessons/week-05/1-monday.md) | Advanced file processing | Nynne |
 | 05 - W | 25/09 | [Arrays](./lessons/week-05/2-wednesday.md) | Array, constructing and traversing | Nynne |
 | 05 - F | 27/09 | [Arrays continued Exercises](./lessons/week-05/3-friday.md) | Arrays and Methods For-Each-Loop and Printing, Searching | Aniko |
 | 06 - M | 30/09 | [Arrays continued](./lessons/week-06/1-monday.md) | Array Excercise | Nynne |
