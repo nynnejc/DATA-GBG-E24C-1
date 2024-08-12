@@ -36,7 +36,8 @@ To solve this, Java is *both* compiled and interpreted. Instead of translating s
 4. If there are no errors, the copiler saves the byte code in the file *Hello.class*.
 5. To run the program, you use java to interpret the byte code and the result is then displayed on the screen.
 
-
+![Debugging with an actual bug](../../assets/First_Computer_Bug,_1945.jpg)
+ 
 ### Debugging
 
 [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), who invented the compiler, also coined the term **debugging*, at a time when a computer took up the space of an entire building, and running a program could be interrupted by a moth getting stuck in a relay! 
@@ -99,8 +100,6 @@ public class HelloWorld{
 **Without adding a new line**
 
 `System.out.println` appends a special character, called *newline* that moves to the beginning of the next line. Try changing your program, so that the second line will be displayed on the same line as the first one, by replacing with `System.out.print`, removing just the `ln`.
-
-![Debugging with an actual bug](../../assets/First_Computer_Bug,_1945.jpg)
 
 
 ### 4. 
