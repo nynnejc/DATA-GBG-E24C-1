@@ -1,12 +1,32 @@
 # Introduction
 
 
+The goal of this class is to get you to think like a programmer. 
+
+## What is Programming?
+
 ![Why do we write code?](../../assets/toast.png)
 
-# Problem solving
+Programming is a set of instructions that specifies how to perform a computation on computer hardware. The computer must be told in escrutiating detail how to do anything - machines understand neither hints, nor humor, and can't imagine what you mean unless you tell it exactly right.
 
-As a programmer most of the time we are solving problems. We get a problem and we need to be the ones that figures out the solution for that problem. Instead of just trying something out to solve the problem we will here give you a framework for solving problmes!
+Beleieve it or not, computers can't do much. Here's a list of all the instructions that are acceptable:
 
+- **Input**
+  - Get data from a keayboard, file, sensor or other device.
+- **Output**
+  - Display data on a screen or send it to a file or other device.
+- **Math**
+  - Perform basic mathematical operations.
+- **Secision**
+  - Check for certain conditions and execute the appropriate code.
+- **Repetition**
+  - Perform an action repeatedly, usually with some variation.
+
+Every program you've ever used, regardless of how complex or sophisticated it appears, is made up of these small blocks of intructions. It follows that **programming** actually is the process of breaking a large, complex task into smaller and smaller subtasks, until they are small and simple enough to be performed with the electronic circuits provided by the hardware.
+
+## Problem solving
+
+As a programmer most of the time we are solving problems. We get a problem and we need to be the ones that figures out the solution for that problem. Instead of just trying blindly to apply random solutions, hoping somehting works, we will give you a framework for solving problmes.
 
 
 ### Understand
@@ -14,7 +34,6 @@ As a programmer most of the time we are solving problems. We get a problem and w
 The first part of solving a problem is understanding the problem. Here are two quotes that stress the importance of understanding your problem
 
 > “If you can’t explain something in simple terms, you don’t understand it.” — Richard Feynman
-
 
 
 > “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” - Albert Einstein
@@ -27,15 +46,13 @@ So we need to understand the problem before trying to solve it. It makes intuiti
 - Or use [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) (this technique has helped me many many times)
 
 
-
 ### Plan
 
 When we truly understand the problem as well as we can, we need to plan for fixing the problem. 
 
-Planning gives your brain time to analyze the problem and properly process the information. It is a task that is not done often enough especially among novice programmers. Novice programmers have a tendency to just start solving a problem. This typically affect the solution that in turn has not been structured well/thought through/have problems.
+Planning gives your brain time to analyze the problem and properly process the information. It is a task that is not done often enough especially among novice programmers. Beginners have a tendency to just start solving a problem. This typically affects the solution that in turn has not been structured well/thought through/have problems.
 
 So how should a plan be made then? It's up to you. Typically just writing down in steps how you are going to solve the problem is sufficient. Another helpful tool when planning writing some software is [writing pseudo code](https://www.geeksforgeeks.org/how-to-write-a-pseudo-code/) 
-
 
 
 ### Divide
@@ -57,14 +74,11 @@ An example could be to figure out how many ping pong balls can fit in a car. Let
 
 
 
-
-
 ## Exercises
 
-- Hvor mange frisører er der i københavn?
-- Hvor mange myrer er der i en koloni?
-- Hvor mange klaverstemmere er der i Tyskland?
-
+- How many hairdressers ar in Copenhagen?
+- How many ants are in an ant colony?
+- How many piano tuners are in Germany?
 - What angle does an hour hand describe in 20 minutes?
 - Two circles have radius equal to 2 cm and 3 cm. The distance between their centres is 4 cm. Do they interact?
 - A can of kerosene weighs 8 kg. Half the kerosene is poured out of it, after which the can weighs 4.5 kg. What is the weight of the empty can? 
