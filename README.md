@@ -30,7 +30,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 06 - M | 30/09 | [Arrays continued](./lessons/week-06/1-monday.md) | Array Excercise | Nynne |
 | 06 - W | 02/10 | [Classes & Objects](./lessons/week-06/2-wednesday.md]) | States, Behaviour, Constructors, Accessors, Mutators, This | Nynne |
 | 06 - F | 04/10 | [Classes & Objects, continued](./lessons/week-06/3-friday.md) | Encapsulation, Instance methods, This | Aniko |
-| 07 - M | 07/10 | [Constructors](./lessons/week-07/1-monday.md) | Initializing an object | Nynne |
+| 07 - M | 07/10 | [Classes Summary](./lessons/week-07/1-monday.md) | Initializing an object | Nynne |
 | 07 - W | 09/10 | [Introduktion to Github](./lessons/week-07/2-wednesday.md) | Installation and sign up | Nynne |
 | 07 - F | 11/10 | [Introduktion to IntelliJ](./lessons/week-07/3-friday.md) | Installation and sign up | Aniko |
 | 08 - | 14/10 | Fall Holiday | no class | NA |
@@ -71,4 +71,9 @@ Software developer with a background in art and design history. She has most rec
 https://nynnechristoffersen.com/
 
 #### Aniko Zsigri
+
 Aniko is from Hungary. She has a candidate in electronics engineering. She has worked several years in DTU as a research assistant. After DTU she has worked as a software developer approximately 10 years, where she has mostly worked with c# programmering language. The last 10 years Aniko was teaching in a HTX gymnasium programming, Technology, Technology, Mathematics and Physics subjects. In the gymnasium she teached python and made robots with the help of Arduino.  
+
+### Acknowledgements
+
+This Java class is an adapted version of a class Benjamin Hughes and Nicklas Frederiksen taught. Big thanjs to them for letting us use their material. We also received help and inspiration from the class structure of Cay Holmegaard Larsen. 

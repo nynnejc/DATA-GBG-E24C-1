@@ -10,7 +10,8 @@ Files have different formats - some are human readable such as .txt files others
 
 We will be working with .csv files.
 
- ![image-20210907104009867](reading-a-file.assets/image-20210907104009867.png)
+ ![image-20210907104009867](../../assets/image-20210907104009867.png)
+   
 
 A .csv file is structured as a table, meaning that it has columns & rows, each row representing an entity.
 
@@ -40,11 +41,11 @@ In the example we will be consuming a file line by line and printing it to the s
 
 New directory created for resources such as data files
 
-![image-20210907105656946](reading-a-file.assets/image-20210907105656946.png)
+![image-20210907105656946](../../assets/image-20210907105656946.png)
 
 File placed in the folder (dragged and dropped)
 
-![image-20210907105604704](reading-a-file.assets/image-20210907105604704.png)
+![image-20210907105604704](../../assets/image-20210907105604704.png)
 
 
 
