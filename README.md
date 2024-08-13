@@ -13,7 +13,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 
 | Week - Day | Date | Lesson | Deliverable | Teacher |
 | --- | --- | --- | --- | --- |
-| 01 - Wednesday | 28/08 | [Introduction to first semester programming](./lessons/week-01/2-wednesday.md) | Hello World! | Nynne |
+| 01 - Wednesday | 28/08 | [Introduction to first semester programming](./lessons/week-01/2-wednesday.md) | Problem Solving | Nynne |
 | 01 - Friday | 30/08 | [Hello World](./lessons/week-01/3-friday.md) | Running the first Program | Aniko |
 | 02 - Monday | 02/09 | [Variables, operators and expressions](./lessons/week-02/1-monday.md) | Storing data | Nynne |
 | 02 - W | 04/09 | [Primitive Data and Definite Loops](./lessons/week-02/2-wednesday.md/) | Primitive types, Expressions, Operators, Variables For-loop, Naming Conventions | Nynne |
