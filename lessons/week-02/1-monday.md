@@ -1,14 +1,5 @@
 # Variables, operators and expressions
-
-
-
-Today we will be working with operators and variables. 
-
-
-
-Watch this video as support 👇
-
-https://youtu.be/JlXJ0eCPteo
+ß
 
 
 
