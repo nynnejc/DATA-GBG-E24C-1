@@ -79,24 +79,7 @@ An example could be to figure out how many ping pong balls can fit in a car. Let
 - How many hairdressers ar in Copenhagen?
 - How many ants are in an ant colony?
 - How many piano tuners are in Germany?
-- What angle does an hour hand describe in 20 minutes?
-- Two circles have radius equal to 2 cm and 3 cm. The distance between their centres is 4 cm. Do they interact?
-- A can of kerosene weighs 8 kg. Half the kerosene is poured out of it, after which the can weighs 4.5 kg. What is the weight of the empty can? 
-- What time is it now if the time which passed since noon constitutes a third of the time that remains until midnight?
 
-
-
-Harvard questions:
-
-![Harvard entry question](../../assets/harvard-entry-question.png)
-
-
-
-![Oxford question](../../assets/oxford-questions-1.png)
-
-
-
-![Oxford question 2](../../assets/oxford-question-3.png)
 
 # Hello World!
 
