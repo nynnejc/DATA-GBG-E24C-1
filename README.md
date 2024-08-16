@@ -14,9 +14,9 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 |   Week - Day   |  Date |                          Lesson                          |                                   Deliverable                                   | Teacher |
 |:--------------:|:-----:|:--------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------:|
 | 01 - Wednesday | 28/08 | [Hello World & IntelliJ install](./lessons/week-01/2-wednesday.md)                           | Problem Solving                                                                 | Nynne   |
-| 01 - Friday    | 30/08 | [Primitive Data and Definite Loops](./lessons/week-0x/.md)                        | Primitive types, Expressions, Operators, Variables For-loop, Naming Conventions | Aniko   |
-| 02 - Monday    | 02/09 | [Variables, operators and expressions](./lessons/week-01/3-friday.md)                     | Storing data                                                                    | Nynne   |
-| 02 - W         | 04/09 | [Primitive Data and Definite Loops](./lessons/week-02/1-monday.md)                        | Primitive types, Expressions, Operators, Variables For-loop, Naming Conventions | Nynne   |
+| 01 - Friday    | 30/08 | [Variables, operators and expressions](./lessons/week-01/3-friday.md)                         | Naming and storing data | Aniko   |
+| 02 - Monday    | 02/09 | [Primitive Data and Definite Loops](./lessons/week-02/1-monday.md)                            | What we can do with our data                                                                    | Nynne   |
+| 02 - W         | 04/09 | [](./lessons/week-02/2-wednesday.md)                                                          |  | Nynne   |
 | 02 - F         | 06/09 | [Introduction to Parameters](./lessons/week-02/3-friday.md)                               | Methods (Parameters, passing a parameter) Methods (return value) Math.class     | Aniko   |
 | 03 - M         | 09/09 | [Workin with Inputs](./lessons/week-03/1-monday.md)                                       | Scan object and input from keybard                                              | Nynne   |
 | 03 - W         | 11/09 | [Conditionals and Boolean](./lessons/week-03/2-wednesday.md)                                 | IF-ELSE, Relational Operators, Object equality                                  | Nynne   |
