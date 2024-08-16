@@ -1,4 +1,4 @@
-# Array
+# Arrays
 
 Watch this video as support 👇
 

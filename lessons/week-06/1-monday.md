@@ -1,4 +1,4 @@
-# Monday
+# Arrays III
 
 Read and solve the exercises found in [arrays](../week-05/2-wednesday.md)
 

@@ -1,4 +1,4 @@
-# Classes
+# Classes & Objects
 
 Watch this video as support 👇
 

@@ -1,4 +1,4 @@
-# GIT
+# Introduction to Github
 
 Today we will be learning git which is a tool for collaborating on code and other projects. It makes it easy to work multiple people on the same project.
 

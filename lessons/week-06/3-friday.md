@@ -1,4 +1,4 @@
-# Class diagrams
+# Classes & Objects II: Class diagrams
 
 This video is super good: https://www.youtube.com/watch?v=UI6lqHOVHic&t=478s
 
