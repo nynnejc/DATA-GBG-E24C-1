@@ -1,19 +1,34 @@
 # Variables, operators and expressions
-ß
 
 
 
-## Variables
-
-A variable is a container for some value (data). As the image shows below we can save the number 22 (value) in a variable we call `x`. In Java that would look like this:
+#### **Variable** = A container for some value (data).
+As seen shows below we can save the number 22 (value) in a variable we call `x`. In Java that would look like this:
 
 ```java
 int x = 22;
 ```
 
+#### **Operator** = Symbols that perform a computation (math, for example)
+In this example the operator is the `+` sign alone.
+
+```java
+3 + 5
+```
+
+#### **Expression** = A simple value or a set of operations that produce a value.
+The simplest expression is just a value fx `55.9` but if we go a bit more advanced we can do things like addition:
+
+```java
+3 + 5
+```
 
 
-![Variables are like boxes (from Khan Academy)](https://github.com/HackYourFuture-CPH/JavaScript/raw/master/javascript1/week1/assets/box.png)
+## Variables
+
+
+
+![Variables are like boxexes or containers](../../assets/var-container.jpg)
 
 
 
@@ -68,8 +83,6 @@ There are lots of different types in Java. Let's have a look at some of them:
 You can read up on more more Java types here: https://www.w3schools.com/java/java_data_types.asp dont get too frightened we will learn the types as we progress with the language. One thing at a time 😄
 
 ![Variable types](../../assets/variable-types.png)
-
-
 
 
 
@@ -166,7 +179,7 @@ Do these steps one step at a time! Think about what type of data should be store
 
 ## Operators and expressions
 
-> An expression is a simple value or a set of operations that produce a value
+> An expression is a simple value or a set of operations that produce a value.
 
 
 
