@@ -76,4 +76,4 @@ Aniko is from Hungary. She has a candidate in electronics engineering. She has w
 
 ### Acknowledgements
 
-This Java class is an adapted version of a class Benjamin Hughes and Nicklas Frederiksen taught. Big thanjs to them for letting us use their material. We also received help and inspiration from the class structure of Cay Holmegaard Larsen. 
+This Java class is an adapted version of a class taught by several KEA colleagues. Big thanks to Benjamin Hughes, Nicklas Frederiksen, Signe Ellegård Borch, Luise Søe and Edith Terte Andersen for letting us use their material. We also received help and inspiration from the class structure of Cay Holmegaard Larsen. 
