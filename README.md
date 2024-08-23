@@ -21,13 +21,13 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 03 - M         | 09/09 | [Workin with Inputs](./lessons/week-03/1-monday.md)                                       | Scan object and input from keybard                                              | Nynne   |
 | 03 - W         | 11/09 | [Loops Excercises](./lessons/week-03/2-wednesday.md)                                      | Loops continued | Nynne   |
 | 03 - F         | 13/09 | [Cumulative Algorithms, Switch, sentinel loop, while loop](./lessons/week-03/3-friday.md) | Summarizing numbers, and looping                                                | Aniko   |
-| 04 - M         | 16/09 | [Strings](./lessons/week-04/1-monday.md)                                                  | Printf, Text processing                                                         | Nynne   |
-| 04 - W         | 18/09 | [Strings II](./lessons/week-04/2-wednesday.md)                                               | WHILE-loop, Random number, Primitive type Boolean                               | Nynne   |
+| 04 - M         | 16/09 | [Arrays](./lessons/week-04/1-monday.md)                                                  |       | Nynne   |
+| 04 - W         | 18/09 | [Array List](./lessons/week-04/2-wednesday.md)                                           |       | Nynne   |
 | 04 - F         | 20/09 | [BlackjackDiceGame](./lessons/week-04/3-friday.md)                                        | Game excercise                                                                  | Aniko   |
 | 05 - M         | 23/09 | [Working with Files](./lessons/week-05/1-monday.md)                                       | Advanced file processing                                                        | Nynne   |
-| 05 - W         | 25/09 | [Arrays](./lessons/week-05/2-wednesday.md)                                                   | Array, constructing and traversing                                              | Nynne   |
-| 05 - F         | 27/09 | [Arrays II](./lessons/week-05/3-friday.md)                                                | Arrays and Methods For-Each-Loop and Printing, Searching                        | Aniko   |
-| 06 - M         | 30/09 | [Arrays III](./lessons/week-06/1-monday.md)                                               | Array Excercise                                                                 | Nynne   |
+| 05 - W         | 25/09 | [?](./lessons/week-05/2-wednesday.md)                                                   | Array, constructing and traversing                                              | Nynne   |
+| 05 - F         | 27/09 | [?](./lessons/week-05/3-friday.md)                                                | Arrays and Methods For-Each-Loop and Printing, Searching                        | Aniko   |
+| 06 - M         | 30/09 | [?](./lessons/week-06/1-monday.md)                                               | Array Excercise                                                                 | Nynne   |
 | 06 - W         | 02/10 | [Classes & Objects](./lessons/week-06/2-wednesday.md)                                        | States, Behaviour, Constructors, Accessors, Mutators, This                      | Nynne   |
 | 06 - F         | 04/10 | [Classes & Objects II](./lessons/week-06/3-friday.md)                                     | Encapsulation, Instance methods, This                                           | Aniko   |
 | 07 - M         | 07/10 | [Classes Summary](./lessons/week-07/1-monday.md)                                          | Initializing an object                                                          | Nynne   |
