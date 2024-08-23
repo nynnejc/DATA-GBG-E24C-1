@@ -8,6 +8,7 @@ Before we get into coding, we must have a grasp of the most important tools need
 
 Complete exercises 1-15 from this list, or as many as you can.
 
+![hello](../../assets/hello.gif)
 
 
 ## Hello Intellij
