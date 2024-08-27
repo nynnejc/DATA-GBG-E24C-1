@@ -1,333 +1,289 @@
-# Arrays
-
-Watch this video as support 👇
-
-https://youtu.be/ohrYtVa0CgM
+# Classes & Objects
 
 
 
-Arrays are used to store multiple elements. It can be seen as a list of things (in Java talk: an array of elements). Arrays are incredibly versatile and used everywhere. Here are a few examples
+You have now learned all the necessary building blocks of Java. `String`, `int`, `forloop`, `methods`, `conditional` these are all blocks that we need to build Java. **But** in order to write code that is 
+
+- Better structured
+- Better abstracted
+- More maintainable
+- More secure
+
+we need to talk about classes! 
+
+It's an essential part of Java that allows us to represent data in a better way.
 
 
 
+## But why??
 
+Let's go through a concrete example where classes can help us writte better code. 
 
+Let's say we have an application that works with students. It could be an application that creates schedules for a school. 
 
-
-**List of days with weather information**
-
-![Weather information](../../assets/dmi.png)
-
-
-
-**List of comments on a reddit post**
-
-![Reddit comments](../../assets/reddit-comments.png)
-
-
-
-**An list of clothes to pack**
-
-![Clother to pack](../../assets/clother-to-pack.png)
-
-
-
-Behind the scenes all these lists are powered by arrays
-
-Enough intro for now, lets get to the meat and potatoes!
-
-
-
-## Working with arrays in Java
-
-Let's say we want to store an array of names. In Java that would look like this:
+Let's say a student has a name, an age and an array of his/her grades. Lets try and represent that with the code we have learned so far:
 
 ```java
-String[] names = {"Camilla", "Per", "Cecilie", "Marie"};
+String studentName = "Cathrine Hansson";
+int age = 23;
+int[] grades = {10, 4, 7, 7};
 ```
 
-- `String[] names` - Create an array of Strings with the name `names`
-- `{"Camilla", "Per", "Cecilie", "Marie"};` - Here we define what elements should be stored in the array
-
-
-
-The way an array works is by saving the individual elements at specific index's. The first element is saved at index 0, the second element is saved at index 1 and so on. If you think it's a bit weird that the index starts at 0, then you are not alone 👇
-
-![Array starts at 0 meme](../../assets/array-start-0-memes.png)
-
-
-
-Let's try and create an integer array
+Okay, so this kind of works. I could do some operations on the individual variables, like finding the highest grade. But now a new student comes in, hmm. Okay let's rewrite the code👇
 
 ```java
-int[] numbers = {10, 20, 30, 40, 50, 60, 070, 80, 90, 100};
+String studentName1 = "Cathrine Hansson";
+int age1 = 23;
+int[] grades1 = {10, 4, 7, 7};
+
+String studentName2 = "Peter Jon";
+int age2 = 27;
+int[] grades2 = {12, 4, 4, 7};
 ```
 
-We can see that array represented below
-
-![Array visualisation](../../assets/array-graphic.png)
-
-So if you want the fifth element in the array you have to get the element at index 4! Another thing to see is the size on the array is 10, because there are 10 elements in the array
+Hmm okay that's not super nice. What if there were 200 students in the system, then i would have to create 200 students * 3 attributes = 600 variables. This would simply not work and would be **massively** error prone. So then what? In comes classes. 
 
 
 
-### What can be stored in arrays?
+## Object orientation
 
-Any type in java can be stored in an array, both primitive and complex data types. 
+- As applications grows - their code base grows
+- As growth implies complexity, it is beneficial to organise code into 
+  understandable & manageable groupings.
+- Object orientation is a concept - “philosophy” - of writing programs.
+- We hide complexity through abstraction
 
 
 
-### Accessing elements in the array
+### Thinking object oriented
 
-Continuing with the array called  `numbers` and `names`, lets see how we can get a specific element at a index in Java:
+![Thinking object oriented](../../assets/thinking-object-oriented.png)
+
+
+
+Let's look at creating a cat. What parameter could be relevant? What is the blueprint of a cat? 
+
+
+
+![Class object metaphor](../../assets/class-objects-metaphor.png)
+
+
+
+**Cookie cutter (blueprint)**
 
 ```java
-System.out.println(numbers[4]); // 50
-System.out.println(names[1]); // Per
+class Cat {
+    public String name;
+    public int mood;
+    public boolean isHungry;
+    public int energy;
+
+    public void meow() {
+        System.out.println("meow");
+    }
+}
 ```
 
+Here we create a new class called `Cat` with 4 attributes: `name`, `mood`, `isHungry` and `energy`. We also add a method to the class called `meow`
 
 
-### Setting elements in the array
 
-It is also possible to change the value at a sepcific index
+**Cookies (objects/instance of Student)**
 
 ```java
-System.out.println(numbers[4]); // 50
-numbers[4] = 77;
-System.out.println(numbers[4]); // 77
+public class CatStarter {
+    public static void main(String[] args) {
+        Cat figaro = new Cat();
+        figaro.meow();
+        figaro.name = "figaro";
+    }
+}
 ```
 
+Here we instantiate a new instance/object of the `Cat` class by saying
+
+`Cat figaro = new Cat();`. `Cat figaro` means create a variable with the name of figaro, the type should be `Cat`. To create the object we say `new Cat();`. This will create a new object.
 
 
-### Length
 
-To get the number of elements in an array write the following:
+### Constructor
+
+![Constructors](../../assets/constructors.png)
+
+![Variable assignment](../../assets/variable-assignment.png)
+
+
+
+As we saw before we could change the name of `figaro` by writing 
 
 ```java
-System.out.println(names.length); // 4
+figaro.name = "figaro";
 ```
 
+There is a better way to do this using the constructor. Lets update the `Cat.java` class:
 
 
-### Creating array with set number of elements
 
 ```java
-int[] numbers = new int[10];
-String[] strings = new String[9];
+class Cat {
+    public String name;
+    public int mood;
+    public boolean isHungry;
+    public int energy;
+
+    public Cat(String name, int mood, boolean isHungry, int energy) {
+        this.name = name;
+        this.mood = mood;
+        this.isHungry = isHungry;
+        this.energy = energy;
+    }
+
+    public void meow() {
+        System.out.println("meow");
+    }
+}
 ```
 
-Here we are first creating an array `numbers` with 10 elements. Afterwards we create an array `strings` with 9 elements. But the array have nothing in them yet
-
->  The elements in the array allocated by *new* will automatically be initialized to **zero** (for numeric types), **false** (for boolean), or **null** (for reference types)
-
-
-
-### Real world example of arrays
+Let's create a new object using the constructor
 
 ```java
-String[] loggedInUsernames = {"dankStar", "pizzaLover", "PizzaCrustLover", "banana_boat"};
-// Save number of logged in users in a new variable
-int loggedInUsers = loggedInUsernames.length;
-System.out.println("there are " + loggedInUsers + " logged in users");
-// We get the last element in the array by subtracting 1 from the number of elements in the array 
-// Because we start the index at 0!
-System.out.println("The last user that logged in is " + loggedInUsernames[loggedInUsers - 1]);
+public class CatStarter {
+    public static void main(String[] args) {
+        Cat figaro = new Cat("figaro", 5, true, 7);
+        figaro.meow();
+        System.out.println(figaro.name); // "figaro"
+    }
+}
 ```
+
+The constructor is a method that constructs the object. 
+
+When we create a new object we say `Cat figaro = new Cat("figaro", 5, true, 7)`; So we call this method 👉 `Cat("figaro", 5, true, 7)` . The method that is called is the constructor! The constructor looks like this:
+
+```java
+public Cat(String name, int mood, boolean isHungry, int energy) {
+  this.name = name;
+  this.mood = mood;
+  this.isHungry = isHungry;
+  this.energy = energy;
+}
+```
+
+The constructor takes parameters but does not have a return type!
+
+The parameters will be replaced with the arguments you create the object with. Just like how arguments and parameters work in methods. 
+
+
+
+### `this`
+
+`this` refers to the instance of the object. 
+
+ `figaro` and `this` is the same thing but inside a class we use `this` to refer to the instance of the object! That means that we set the name (`"figaro"`) that came from creating a new object to be the name of the object. 
+
+
+
+### `toString`
+
+Printing out the values inside an object can be very helpful! But when we `println` an object it gives us `Cat@4f023edb`. This print the name of the class and the Dashcode. We can't really use this for anything. 
+
+```java
+Cat figaro = new Cat("figaro", 5, true, 7);
+System.out.println(figaro); // Cat@4f023edb
+```
+
+In order to print an object's attributes we have to create a `toString` method 👇
+
+```java
+@Override
+public String toString() {
+    return "Cat{" +
+            "name='" + name + '\'' +
+            ", mood=" + mood +
+            ", isHungry=" + isHungry +
+            ", energy=" + energy +
+            '}';
+}
+```
+
+In the `toString` method we simply return a string with the values we would like to show. Ignore the `@override` annotation for now. You will learn that soon!
+
+In IntelliJ there is a shortcut for generating the `toString` method automatically. 
+
+```java
+Cat figaro = new Cat("figaro", 5, true, 7);
+System.out.println(figaro); // Cat{name='figaro', mood=5, isHungry=true, energy=7}
+```
+
+
+
+
 
 
 
 ## Exercises
 
-After two hours peer instruction!
 
 
+### Exercise 1 - level 1
 
-### Exercise 1 - iterating through an array
+Create a `Dog` class. The class should have
 
-Iterating through the loop means running through each element in the array and doing something with those elements. 
+- 4 attributes that you choose
+- 1 method that you choose
+- Create 2 instances of dogs using the constructor!
 
+Now call the method on the two dog objects. 
 
 
-Find a partner group. One groups investigates iterating through an array using a `for` loop another group investigates iterating through an array using the for each loop
 
-You have 30 minutes to prepare a presentation for the other group explaining the iteration type you got. When preparing focus on these things
+### Exercise 1.1 - level 1
 
-- How does your iteration type work?
-- Write a practical code example of how to use the iteration type you got
-- In what situations should someone use the iteration type you got?
+There is a car, which has attributes *model* and *price*, and the car has functionalities *start*, *stop* and *move*. Also, there is a driver, having attributes *name* and *age*, and the behaviour *drive*.
 
-The presentation should be around 5-10 minutes. Have the presentation as you like. If slides works for you then use that, if just code works for you the use that, if a document is better then use that. 
+Create the classes *Car* and *Driver*. The functionality of the methods does not matter. Just print something to the console
 
 
 
-### Exercise 1.1
+### Exercise 1.2 - level 1
 
-Figure out what this method does **without running it!**
+Create a class called Employee that includes three pieces of information as instance variables 
 
-- Improve the variable names so they make more sense for you
-- When you have figured out what the method does, give the method a better name
-- Also show an example of how to use the method
+- A first name
+- A last name
+- A monthly salary (double).
 
-```java
-static char[] doSomething(char abc[]) {
-    char[] bac = new char[abc.length];
-    int j = abc.length;
-    for (int i = 0; i < abc.length; i++) {
-        bac[j - 1] = abc[i];
-        j = j - 1;
-    }
+Your class should have a constructor that initializes the three instance variables. If the monthly 
+salary is not positive, set it to 0.0. Create two Employee objects and display each object’s yearly salary. Then give each 
+Employee a 10% raise and display each Employee’s yearly salary again.
 
-    return bac;
-}
-```
 
 
+### Exercise 2 - Lampeopgave - level 2
 
-### Exercise 1.2 - Level 1
+1. Skriv en klasse der hedder `Lamp`. 
+2. `Lamp` har en boolean instansvariabel der angiver om den er tændt eller slukket. 
+3. Når man laver et nyt `lamp`-objekt skal der være en constructor hvor man kan vælge om lampen som udgangspunkt er tændt eller slukket
+4. Skriv en metode der hedder `toggleLight`, som tænder lampen hvis den er slukket, og slukker lampen hvis den er tændt. 
+5. Lav en klasse (du kan fx kalde den `Room`) med en main-metode hvor du instantierer forskellige lampeobjekter (skrivebordslampe, sengelampe el. lign.) og tester om de virker som de skal. 
+6. Lav en attribut i `Lamp` der holder øje med hvor mange gange lamp er blevet togglet
+7. Lav en metode der returnerer antal gange lampen er togglet.
+8. Lav en static variabel i `Lamp`-klassen som tæller hvor mange lamper der er lavet
 
-Create an array with 6 strings. Print the first element. You define what string should be in the array!
 
 
+### Exercise 3 - level 2
 
-### Exercise 1.21 - Level 1
+Create a `DogFarm` class that has a method that creates and returns `Dog` objects with data input from the user.
 
-1. Create an array with 6 integers
-2. Change the second element in the array to a new value
+The maximum / minimum of mood, energy & hunger is 10 / 0
 
+If a method that raises an attribute to more / less than 10 / 0 - The attribute do not change, but prints out - Cat is at max / min [mood/energy/hunger]
 
+In the main method. Initiate a `DogFarm` object now create a couple of dogs using. 
 
-### Exercise 1.22 - Level 1
 
-1. Create an array with 4 `boolean`
-2. Change the last element to `true`
 
+### Exercise 4 - Robot factory - level 3
 
-
-### Exercise 1.3 - Level 1
-
-Solve this exercises in Array-1 from CodingBat: https://codingbat.com/java/Array-1
-
-- firstLast6
-
-
-
-### Exercise 1.4 - Level 2
-
-```java
-String[] names = new Array(){"Peter", "Sarita", "Jens", "Julie", "Jens"};
-```
-
-Change all elements with the string `Jens` to `Jens 🔥`
-
-Use a normal for loop to change all occurences of jens in the above lislist.
-
-
-
-### Exercise 2 - Level 2
-
-Write a method that takes two parameters:
-
-- An array of Strings
-- An integer `n` 
-
-The method prints the String on the *nth* index.
-
-Here is an example of how to use the method:
-
-```java
-String[] abc = {"Camilla", "Per", "Cecilie", "Marie"};
-String exercise2Result = exercise2(names, 3);
-System.out.println(exercise2Result); // Marie
-```
-
-*Remember good variable and function names! Dont use the ones in the above example*
-
-
-
-### Exercise 4 - Level 2
-
-Write a method that takes a single parameter:
-
-- An array of integers
-
-The method returns the lowest value from the array
-
-
-
-### Exercise 5 - Level 2
-
-Lav en metode, der tager en String som parameter og udskriver hvor mange ord strengen består af. 
-
-Eksempel: Hvis metoden kaldes med denne tekst fra main: 
-
- ```java
- findNumberOfWords("Der var engang");  
- ```
-
-skal svaret være 3, fordi der er tre ord i strengen adskilt med mellemrum.  
-
-Hint:  
-
-Tænk over hvad der karakteriserer en streng med to ord. Hvordan ved i at der er to ord? Måske i kan skrive noget kode der kan gøre brug af det!
-
-
-
-### Exercise 1.3 - Level 2
-
-Solve this exercises in Array-1 from CodingBat: https://codingbat.com/java/Array-1
-
-- commondEnd
-
-
-
-### Exercise 6 - Level 3
-
-Skriv en metode der kan finde og returnere antal strenge, som  indeholder en bestemt bogstavssekvens i et String array. Metodens  signatur skal se således ud: 
-
-```java
-public static int findAntal(String[] liste, String sekvens)  
-```
-
-Parameteren kaldet sekvens repræsenterer en bogstavssekvens, som der skal ledes efter i arrayet kaldet liste. 
-
-```java
-System.out.println(findAntal("banan", "an")); // 2
-System.out.println(findAntal("hahaha", "ha")); // 3
-```
-
-
-
-### Exercise 7 - Level 3
-
-![Exercise 7](../../assets/Array exercise.png)
-
-
-
-### Exercise 8 - Level 3
-
-Write a Java program to compute the average value of an array of integers except the largest and smallest values.
-
-
-
-### Exercise 9 - Level 3
-
-Write a Java program to check if the sum of all the 10's in the array is exactly 30. Return false if the condition does not satisfy, otherwise true
-
-
-
-### Exercise 10 - Level 3
-
-Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
-
-Sample array: `[20, 20, 30, 40, 50, 50, 50]`
-
-After removing the duplicate elements the program should return 4 as the new length of the array.
-
-
-
-### Exercise 11 - Level 3
-
-Write a Java program to print all the LEADERS in the array. 
-
-Note: An element is leader if it is greater than all the elements to its right side
+![Robot factory](../../assets/robot-factory.png)

@@ -1,266 +1,333 @@
-# Strings
+# Arrays
 
 Watch this video as support 👇
 
-https://youtu.be/9R9nVa_MWPA
+https://youtu.be/ohrYtVa0CgM
 
 
 
-A string is a data type used for handling text. Strings are always sourrounded by double quotes. Here is an example:
+Arrays are used to store multiple elements. It can be seen as a list of things (in Java talk: an array of elements). Arrays are incredibly versatile and used everywhere. Here are a few examples
+
+
+
+
+
+
+
+**List of days with weather information**
+
+![Weather information](../../assets/dmi.png)
+
+
+
+**List of comments on a reddit post**
+
+![Reddit comments](../../assets/reddit-comments.png)
+
+
+
+**An list of clothes to pack**
+
+![Clother to pack](../../assets/clother-to-pack.png)
+
+
+
+Behind the scenes all these lists are powered by arrays
+
+Enough intro for now, lets get to the meat and potatoes!
+
+
+
+## Working with arrays in Java
+
+Let's say we want to store an array of names. In Java that would look like this:
 
 ```java
-String fruit = "banana";
+String[] names = {"Camilla", "Per", "Cecilie", "Marie"};
+```
+
+- `String[] names` - Create an array of Strings with the name `names`
+- `{"Camilla", "Per", "Cecilie", "Marie"};` - Here we define what elements should be stored in the array
+
+
+
+The way an array works is by saving the individual elements at specific index's. The first element is saved at index 0, the second element is saved at index 1 and so on. If you think it's a bit weird that the index starts at 0, then you are not alone 👇
+
+![Array starts at 0 meme](../../assets/array-start-0-memes.png)
+
+
+
+Let's try and create an integer array
+
+```java
+int[] numbers = {10, 20, 30, 40, 50, 60, 070, 80, 90, 100};
+```
+
+We can see that array represented below
+
+![Array visualisation](../../assets/array-graphic.png)
+
+So if you want the fifth element in the array you have to get the element at index 4! Another thing to see is the size on the array is 10, because there are 10 elements in the array
+
+
+
+### What can be stored in arrays?
+
+Any type in java can be stored in an array, both primitive and complex data types. 
+
+
+
+### Accessing elements in the array
+
+Continuing with the array called  `numbers` and `names`, lets see how we can get a specific element at a index in Java:
+
+```java
+System.out.println(numbers[4]); // 50
+System.out.println(names[1]); // Per
 ```
 
 
 
-The way a string is built up is as a sequence of characters. So the first character in `fruit` is `b`, the second character is `a` and so on. *In programming languages the first element has index 0 (which is a bit weird in the beginning)*
+### Setting elements in the array
 
-![String character sequence](../../assets/string-characters.png)
-
-That means that if we wanted the first character in a string we would get that at index 0!
+It is also possible to change the value at a sepcific index
 
 ```java
-char firstCharacter = fruit.charAt(0);
-System.out.println(firstCharacter); // prints b
+System.out.println(numbers[4]); // 50
+numbers[4] = 77;
+System.out.println(numbers[4]); // 77
 ```
 
 
 
-String are different than the types we saw when working with `int`, `double` or `char`. `String` is called non primitive/complex data type. Lets get into the differences between primitive and non-primitive
+### Length
 
-
-
-## Primitive data types
-
-There are 8 primitive data types in java as you can in the figure below. Primitive data types is predefined by its language and **holds the value of a variable directly in memory**! 
-
-
-
-![Primitive data types](../../assets/primitive-data-types.png)
-
-
-
-## Complex data types
-
-This types has many names, it's also called reference types or complex types. Here the value of the some variable is not held in memory. **Instead a reference to the object is held in memory**!
-
-There are some more differences that you will learn later. But one thing that is relevant now is that a `String` has methods that can be called on them. 
-
-To call a method on a `String` write `.` and then the method you want to call. Here is an example
+To get the number of elements in an array write the following:
 
 ```java
-String name = "Benjamin";
-String upperCaseName = name.toUpperCase();
-System.out.println(upperCaseName) // prints BENJAMIN
+System.out.println(names.length); // 4
 ```
 
 
 
-IntelliJ will autocomplete with methods when pressing `.` after a string variable as can be seen below
-
-![String methods](../../assets/string-methods.png)
-
-To find more methods see here: https://www.w3schools.com/java/java_ref_string.asp
-
-
-
-Lets see some more examples
+### Creating array with set number of elements
 
 ```java
-String lastname = "Hughes";
-lastname.toUpperCase(); // HUGHES
-lastname.charAt(2); // g
-lastname.length(); // 6
+int[] numbers = new int[10];
+String[] strings = new String[9];
+```
 
-//We can even add strings together:
-String firstname = "Benjamin ";
-String lastname = "Hughes";
-String fullname = firstname + lastname;
-System.out.println(fullname); // Benjamin Hughes
+Here we are first creating an array `numbers` with 10 elements. Afterwards we create an array `strings` with 9 elements. But the array have nothing in them yet
+
+>  The elements in the array allocated by *new* will automatically be initialized to **zero** (for numeric types), **false** (for boolean), or **null** (for reference types)
+
+
+
+### Real world example of arrays
+
+```java
+String[] loggedInUsernames = {"dankStar", "pizzaLover", "PizzaCrustLover", "banana_boat"};
+// Save number of logged in users in a new variable
+int loggedInUsers = loggedInUsernames.length;
+System.out.println("there are " + loggedInUsers + " logged in users");
+// We get the last element in the array by subtracting 1 from the number of elements in the array 
+// Because we start the index at 0!
+System.out.println("The last user that logged in is " + loggedInUsernames[loggedInUsers - 1]);
 ```
 
 
 
 ## Exercises
 
-
-
-### Exercise 1
-
-In a group investigate two different string methods. 
-
-You need to be able to explain what the method does but also how to use it in Java!
-
-A couple of groups will be selected to show what they learned
+After two hours peer instruction!
 
 
 
-### Execise 2
+### Exercise 1 - iterating through an array
 
-- Convert a string to uppercase
-- Return the index of a character
-- Concatenate two different string
-- Check these strings are equal to each other. Uppercases should be ignored!
-  - `hello`, `ollhe` should print `false`
-  - `bike`, `banana` should print `false`
-  - `name`, `NaMe` should print `true`
-  - `yes`, `yes` should print `true`
+Iterating through the loop means running through each element in the array and doing something with those elements. 
 
 
 
-### Exercise 3 
+Find a partner group. One groups investigates iterating through an array using a `for` loop another group investigates iterating through an array using the for each loop
 
-Løs de her opgaver: https://www.w3resource.com/java-exercises/string/index.php
+You have 30 minutes to prepare a presentation for the other group explaining the iteration type you got. When preparing focus on these things
 
-1, 7, 8, 22
+- How does your iteration type work?
+- Write a practical code example of how to use the iteration type you got
+- In what situations should someone use the iteration type you got?
 
-
-
-### Exercise 3.1
-
-Create a java program that takes a string and a substring as input. The program should then check if the substring is part of the string 👇
-
-```
-Please input a string:
-benjamin
-Please input a substring to check:
-jam
-Is jam is part of Benjamin? true
-```
-
-```
-Please input a string:
-Camilla
-Please input a substring to check:
-was
-Is was is part of Camilla? false
-```
-
-Alternatively you can write it like this (if you know if sentences):
-
-```
-Please input a string:
-benjamin
-Please input a substring to check:
-jam
-jam is part of Benjamin
-```
-
-```
-Please input a string:
-Camilla
-Please input a substring to check:
-put
-put is not part of Camilla
-```
-
-*Ask your classmates about an if sentence!*
+The presentation should be around 5-10 minutes. Have the presentation as you like. If slides works for you then use that, if just code works for you the use that, if a document is better then use that. 
 
 
 
-### Exercise 3.11
+### Exercise 1.1
 
-Write a program that takes a three character string as input and checks if the string is mirrored. The case should be ignored. fx `Lol` should return `true`
+Figure out what this method does **without running it!**
 
-Here is an example
+- Improve the variable names so they make more sense for you
+- When you have figured out what the method does, give the method a better name
+- Also show an example of how to use the method
 
-```
-Please input a word:
-lok
-Can lok be mirrored: false
-```
+```java
+static char[] doSomething(char abc[]) {
+    char[] bac = new char[abc.length];
+    int j = abc.length;
+    for (int i = 0; i < abc.length; i++) {
+        bac[j - 1] = abc[i];
+        j = j - 1;
+    }
 
-```
-Please input a word:
-lol
-Can lol be mirrored: true
-```
-
-You can again write different messages if you know if sentences
-
-
-
-### Exercise 3.21
-
-Write a program that can check if a number is even. 
-
-Now write a program that will check if a number is odd. 
-
-*Hint: Read up on modulus!*
-
-
-
-### Exercise 3.3
-
-Write a program that takes two numbers. One that that decides the diviser and one that is the number that should be checked against the divider:
-
-Example
-
-
-
-```
-Please put in the diviser:
-5
-Now please put in the number to check
-35
-Is 35 divisible with 5: true
-```
-
-```
-Please put in the diviser:
-6
-Now please put in the number to check
-13
-Is 13 divisible with 6: false
+    return bac;
+}
 ```
 
 
 
-### Exercise 🏎
+### Exercise 1.2 - Level 1
 
-Write a program that will check if the first character in a word comes later in the alphabeat than the last character in word
-
-Example
-
-```
-Please write a word:
-jungle
-j comes after e in the alphabeat
-```
-
-```
-Please write a word:
-Bananas
-B comes before s in the alphabeat
-```
+Create an array with 6 strings. Print the first element. You define what string should be in the array!
 
 
 
-### Exercise 🍌
+### Exercise 1.21 - Level 1
 
-Write a Java program that accepts a 3 digit integer `n` and compute the sum of the digits of `n` 
-
-Example:
-
-```
-Please input a number: 
-334
-The sum of 3 and 4 and 4 is 10
-```
+1. Create an array with 6 integers
+2. Change the second element in the array to a new value
 
 
 
-```
-Please input a number: 
-121
-The sum of 1 and 2 and 1 is 4
+### Exercise 1.22 - Level 1
+
+1. Create an array with 4 `boolean`
+2. Change the last element to `true`
+
+
+
+### Exercise 1.3 - Level 1
+
+Solve this exercises in Array-1 from CodingBat: https://codingbat.com/java/Array-1
+
+- firstLast6
+
+
+
+### Exercise 1.4 - Level 2
+
+```java
+String[] names = new Array(){"Peter", "Sarita", "Jens", "Julie", "Jens"};
 ```
 
+Change all elements with the string `Jens` to `Jens 🔥`
+
+Use a normal for loop to change all occurences of jens in the above lislist.
 
 
-### Exercise 🥁
 
-Løs de her opgaver: https://www.w3resource.com/java-exercises/string/index.php
+### Exercise 2 - Level 2
 
-2, 3, 25
+Write a method that takes two parameters:
+
+- An array of Strings
+- An integer `n` 
+
+The method prints the String on the *nth* index.
+
+Here is an example of how to use the method:
+
+```java
+String[] abc = {"Camilla", "Per", "Cecilie", "Marie"};
+String exercise2Result = exercise2(names, 3);
+System.out.println(exercise2Result); // Marie
+```
+
+*Remember good variable and function names! Dont use the ones in the above example*
+
+
+
+### Exercise 4 - Level 2
+
+Write a method that takes a single parameter:
+
+- An array of integers
+
+The method returns the lowest value from the array
+
+
+
+### Exercise 5 - Level 2
+
+Lav en metode, der tager en String som parameter og udskriver hvor mange ord strengen består af. 
+
+Eksempel: Hvis metoden kaldes med denne tekst fra main: 
+
+ ```java
+ findNumberOfWords("Der var engang");  
+ ```
+
+skal svaret være 3, fordi der er tre ord i strengen adskilt med mellemrum.  
+
+Hint:  
+
+Tænk over hvad der karakteriserer en streng med to ord. Hvordan ved i at der er to ord? Måske i kan skrive noget kode der kan gøre brug af det!
+
+
+
+### Exercise 1.3 - Level 2
+
+Solve this exercises in Array-1 from CodingBat: https://codingbat.com/java/Array-1
+
+- commondEnd
+
+
+
+### Exercise 6 - Level 3
+
+Skriv en metode der kan finde og returnere antal strenge, som  indeholder en bestemt bogstavssekvens i et String array. Metodens  signatur skal se således ud: 
+
+```java
+public static int findAntal(String[] liste, String sekvens)  
+```
+
+Parameteren kaldet sekvens repræsenterer en bogstavssekvens, som der skal ledes efter i arrayet kaldet liste. 
+
+```java
+System.out.println(findAntal("banan", "an")); // 2
+System.out.println(findAntal("hahaha", "ha")); // 3
+```
+
+
+
+### Exercise 7 - Level 3
+
+![Exercise 7](../../assets/Array exercise.png)
+
+
+
+### Exercise 8 - Level 3
+
+Write a Java program to compute the average value of an array of integers except the largest and smallest values.
+
+
+
+### Exercise 9 - Level 3
+
+Write a Java program to check if the sum of all the 10's in the array is exactly 30. Return false if the condition does not satisfy, otherwise true
+
+
+
+### Exercise 10 - Level 3
+
+Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
+
+Sample array: `[20, 20, 30, 40, 50, 50, 50]`
+
+After removing the duplicate elements the program should return 4 as the new length of the array.
+
+
+
+### Exercise 11 - Level 3
+
+Write a Java program to print all the LEADERS in the array. 
+
+Note: An element is leader if it is greater than all the elements to its right side

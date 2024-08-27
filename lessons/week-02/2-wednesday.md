@@ -1,4 +1,4 @@
-# Conditionals and boolean
+# Conditionals and Boolean
 
 Conditionals is a way for a computer to handle decisions. Given some condition the program should be able to account for that. This is done using something called a conditions conditional statement. 
 

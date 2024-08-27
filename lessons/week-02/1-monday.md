@@ -1,6 +1,6 @@
 
 
-# Loops - ASCII Figure Excercise
+# For Loops and While Loops
 
  A Loop is a programming construct that can help with repetitive tasks. 
 

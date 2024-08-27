@@ -1,4 +1,4 @@
-# Methods
+# Methods and Parameters
 
 When writing Java we often times have to do repetitive tasks. 
 
