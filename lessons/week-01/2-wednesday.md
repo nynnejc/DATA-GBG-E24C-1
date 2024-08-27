@@ -31,11 +31,6 @@ Use your KEA e-mail to register here: https://www.jetbrains.com/community/educat
 **Note: To compila java programs you have to have JDK installed: https://www.oracle.com/java/technologies/javase-downloads.html**
 
 
-## The compilation process
-
-![The compiling process](5-friday.assets/image-20210811094602268.png)
-
-
 
 
 # Hello World!
@@ -68,7 +63,7 @@ To solve this, Java is *both* compiled and interpreted. Instead of translating s
 
 ### The Compilation Process
 
-![The compiling process](../../assets/image-20210811094602268.png)
+![The compiling process](../../assets/compilation-process.png)
 
 1. The programmer (you!) writes the code.
 2. Save in the file `Hello.java`.
