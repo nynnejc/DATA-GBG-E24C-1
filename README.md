@@ -11,59 +11,59 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 
 ## Lesson Plan
 
-|   Week - Day   |  Date |                          Lesson                          |                                   Deliverable                                   | Teacher |
-|:--------------:|:-----:|:--------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------:|
-| 01 - Wednesday | 28/08 | [Hello World & IntelliJ install](./lessons/week-01/2-wednesday.md)                           | Problem Solving                                                                 | Nynne   |
-| 01 - Friday    | 30/08 | [Variables, operators and expressions](./lessons/week-01/3-friday.md)                         | Naming and storing data | Aniko   |
-| 02 - Monday    | 02/09 | [For Loops](./lessons/week-02/1-monday.md)                                                    | Looping through values                                                                    | Nynne   |
-| 02 - W         | 04/09 | [Conditionals and Booleans](./lessons/week-02/2-wednesday.md)                                 | IF-ELSE, Relational Operators, Object equality  | Nynne   |
-| 02 - F         | 06/09 | [Introduction to Parameters](./lessons/week-02/3-friday.md)                               | Methods (Parameters, passing a parameter) Methods (return value) Math.class     | Aniko   |
-| 03 - M         | 09/09 | [Workin with Inputs](./lessons/week-03/1-monday.md)                                       | Scan object and input from keybard                                              | Nynne   |
-| 03 - W         | 11/09 | [Loops Excercises](./lessons/week-03/2-wednesday.md)                                      | Loops continued | Nynne   |
-| 03 - F         | 13/09 | [Cumulative Algorithms, Switch, sentinel loop, while loop](./lessons/week-03/3-friday.md) | Summarizing numbers, and looping                                                | Aniko   |
-| 04 - M         | 16/09 | [Arrays](./lessons/week-04/1-monday.md)                                                  |       | Nynne   |
-| 04 - W         | 18/09 | [Array List](./lessons/week-04/2-wednesday.md)                                           |       | Nynne   |
-| 04 - F         | 20/09 | [BlackjackDiceGame](./lessons/week-04/3-friday.md)                                        | Game excercise                                                                  | Aniko   |
-| 05 - M         | 23/09 | [Working with Files](./lessons/week-05/1-monday.md)                                       | Advanced file processing                                                        | Nynne   |
-| 05 - W         | 25/09 | [?](./lessons/week-05/2-wednesday.md)                                                   | Array, constructing and traversing                                              | Nynne   |
-| 05 - F         | 27/09 | [?](./lessons/week-05/3-friday.md)                                                | Arrays and Methods For-Each-Loop and Printing, Searching                        | Aniko   |
-| 06 - M         | 30/09 | [?](./lessons/week-06/1-monday.md)                                               | Array Excercise                                                                 | Nynne   |
-| 06 - W         | 02/10 | [Classes & Objects](./lessons/week-06/2-wednesday.md)                                        | States, Behaviour, Constructors, Accessors, Mutators, This                      | Nynne   |
-| 06 - F         | 04/10 | [Classes & Objects II](./lessons/week-06/3-friday.md)                                     | Encapsulation, Instance methods, This                                           | Aniko   |
-| 07 - M         | 07/10 | [Classes Summary](./lessons/week-07/1-monday.md)                                          | Initializing an object                                                          | Nynne   |
-| 07 - W         | 09/10 | [Introduktion to Github](./lessons/week-07/2-wednesday.md)                                   | Installation and sign up                                                        | Nynne   |
-| 07 - F         | 11/10 | [Github exercises](./lessons/week-07/3-friday.md)                                         | Installation and sign up                                                        | Aniko   |
-| 08 -           | 14/10 | Fall Holiday                                             | no class                                                                        | NA      |
-| 08 -           | 16/10 | Fall Holiday                                             | no class                                                                        | NA      |
-| 08 -           | 18/10 | Fall Holiday                                             | no class                                                                        | NA      |
-| 09 - M         | 21/10 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Nynne   |
-| 09 - W         | 23/10 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Aniko   |
-| 09 - F         | 25/10 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Aniko   |
-| 10 - M         | 28/10 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Nynne   |
-| 10 - W         | 30/10 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Nynne   |
-| 10 - F         | 01/11 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Aniko   |
-| 11 - M         | 04/11 | Interdisciplinary Project - Mandatory                    | Group Work                                                                      | Nynne   |
-| 11 - W         | 06/11 | Presentation of Projects                                 | Group Work                                                                      | Nynne   |
-| 11 - F         | 08/11 | [Excercises](./lessons/week-11/3-friday.md)                                               | Group Work                                                                      | Aniko   |
-| 12 - M         | 11/11 |[Excercises](./lessons/week-12/1-monday.md)                                               |                                                                                 | Nynne   |
-| 12 - W         | 13/11 |[ArrayList](./lessons/week-12/2-wednesday.md)                                                | Searching methods For-Each-Loop and Wrapper classes                             | Nynne   |
-| 12 - F         | 15/11 |[Inheritance](./lessons/week-12/3-friday.md)                                              | Extending a class, Super- and Subclasses, overriding, Superclass                | Aniko   |
-| 13 - M         | 18/11 |[Inheritance II](./lessons/week-13/1-monday.md)                                           | Interface Polymorphism                                                          | Nynne   |
-| 13 - W         | 20/11 |[Methods](./lessons/week-13/2-wednesday.md)                                                  | Organizing code into reusable chunks                                            | Nynne   |
-| 13 - F         | 22/11 |[Methods II](./lessons/week-13/3-friday.md)                                               | Organizing code into reusable chunks                                            | Aniko   |
-| 14 - M         | 25/11 |[Summary: Data types, methods, loops](./lessons/week-14/1-monday.md)                      | What we've learned so far                                                       | Nynne   |
-| 14 - W         | 27/11 |[Public, private and protected data](./lessons/week-14/2-wednesday.md)                       | Access modifiers in Java                                                        | Nynne   |
-| 14 - F         | 29/11 |[Classes & Objects Summary](./lessons/week-14/3-friday.md)                                | What we've learned so far                                                       | Aniko   |
-| 15 - M         | 02/12 |[Multidisciplinary Project - Obligatory](./lessons/week-15/1-monday.md)                   | Obligatory Class Project                                                        | Nynne   |
-| 15 - W         | 04/12 | Multidisciplinary Project - Obligatory                   | Obligatory Class Project                                                        | Nynne   |
-| 15 - F         | 06/12 | Multidisciplinary Project - Obligatory                   | Obligatory Class Project                                                        | Aniko   |
-| 16 - M         | 09/12 | Multidisciplinary Project - Obligatory                   | Obligatory Class Project                                                        | Nynne   |
-| 16 - W         | 11/12 | No Class                                                 | Class Cancelled                                                                 | NA      |
-| 16 - F         | 13/12 | Multidisciplinary Project - Obligatory                   | Obligatory Class Project                                                        | Aniko   |
-| 17 - M         | 16/12 | Presentation of Project                                  | What we've learned                                                              | Nynne   |
-| 17 - W         | 18/12 | Presentation of Project                                  | What we've learned                                                              | Nynne   |
+|   Week - Day   | Date  |                                   Lesson                                   | Teacher |
+| :------------: | :---: | :------------------------------------------------------------------------: | :-----: |
+| 01 - Wednesday | 28/08 |     [Hello World & IntelliJ install](./lessons/week-01/2-wednesday.md)     |  Nynne  |
+|  01 - Friday   | 30/08 |   [Variables, operators and expressions](./lessons/week-01/3-friday.md)    |  Aniko  |
+|  02 - Monday   | 02/09 |         [For Loops and While Loops](./lessons/week-02/1-monday.md)         |  Nynne  |
+| 02 - Wednesday | 04/09 |       [Conditionals and Booleans](./lessons/week-02/2-wednesday.md)        |  Nynne  |
+|  02 - Friday   | 06/09 |  [Introduction to Methods and Parameters](./lessons/week-02/3-friday.md)   |  Aniko  |
+|  03 - Monday   | 09/09 |            [Workin with Inputs](./lessons/week-03/1-monday.md)             |  Nynne  |
+| 03 - Wednesday | 11/09 |            [Loops Excercises](./lessons/week-03/2-wednesday.md)            |  Nynne  |
+|  03 - Friday   | 13/09 |  [Cumulative Algorithms, Switch Statement](./lessons/week-03/3-friday.md)  |  Aniko  |
+|  04 - Monday   | 16/09 |                  [Arrays](./lessons/week-04/1-monday.md)                   |  Nynne  |
+| 04 - Wednesday | 18/09 |               [Array List](./lessons/week-04/2-wednesday.md)               |  Nynne  |
+|  04 - Friday   | 20/09 |             [BlackjackDiceGame](./lessons/week-04/3-friday.md)             |  Aniko  |
+|  05 - Monday   | 23/09 |            [Working with Files](./lessons/week-05/1-monday.md)             |  Nynne  |
+| 05 - Wednesday | 25/09 |           [Classes & Objects](./lessons/week-05/2-wednesday.md)            |  Nynne  |
+|  05 - Friday   | 27/09 | [Classes, Objects, Constructor Overloading](./lessons/week-05/3-friday.md) |  Aniko  |
+|  06 - Monday   | 30/09 |              [Classes Summary](./lessons/week-06/1-monday.md)              |  Nynne  |
+| 06 - Wednesday | 02/10 |                [Methods](./lessons/week-06/2-wednesday.md)                 |  Nynne  |
+|  06 - Friday   | 04/10 |       [Methods, Overloading Methods](./lessons/week-06/3-friday.md)        |  Aniko  |
+|  07 - Monday   | 07/10 |      [Design, Diagrams, Control Flow](./lessons/week-07/1-monday.md)       |  Nynne  |
+| 07 - Wednesday | 09/10 |            [Intro to Github](./lessons/week-07/2-wednesday.md)             |  Nynne  |
+|  07 - Friday   | 11/10 |             [Github exercises](./lessons/week-07/3-friday.md)              |  Aniko  |
+|      08 -      | 14/10 |                                Fall Holiday                                |   NA    |
+|      08 -      | 16/10 |                                Fall Holiday                                |   NA    |
+|      08 -      | 18/10 |                                Fall Holiday                                |   NA    |
+|  09 - Monday   | 21/10 |                   Interdisciplinary Project - Mandatory                    |  Nynne  |
+| 09 - Wednesday | 23/10 |                   Interdisciplinary Project - Mandatory                    |  Aniko  |
+|  09 - Friday   | 25/10 |                   Interdisciplinary Project - Mandatory                    |  Aniko  |
+|  10 - Monday   | 28/10 |                   Interdisciplinary Project - Mandatory                    |  Nynne  |
+| 10 - Wednesday | 30/10 |                   Interdisciplinary Project - Mandatory                    |  Nynne  |
+|  10 - Friday   | 01/11 |                   Interdisciplinary Project - Mandatory                    |  Aniko  |
+|  11 - Monday   | 04/11 |                   Interdisciplinary Project - Mandatory                    |  Nynne  |
+| 11 - Wednesday | 06/11 |                          Presentation of Projects                          |  Nynne  |
+|  11 - Friday   | 08/11 |            [ArrayList - search](./lessons/week-11/3-friday.md)             |  Aniko  |
+|  12 - Monday   | 11/11 |             [ArrayList - edit](./lessons/week-12/1-monday.md)              |  Nynne  |
+| 12 - Wednesday | 13/11 |              [Polymorphism](./lessons/week-12/2-wednesday.md)              |  Nynne  |
+|  12 - Friday   | 15/11 |                [Inheritance](./lessons/week-12/3-friday.md)                |  Aniko  |
+|  13 - Monday   | 18/11 |              [Inheritance II](./lessons/week-13/1-monday.md)               |  Nynne  |
+| 13 - Wednesday | 20/11 |                [Methods](./lessons/week-13/2-wednesday.md)                 |  Nynne  |
+|  13 - Friday   | 22/11 |                [Methods II](./lessons/week-13/3-friday.md)                 |  Aniko  |
+|  14 - Monday   | 25/11 |    [Summary: Data types, methods, loops](./lessons/week-14/1-monday.md)    |  Nynne  |
+| 14 - Wednesday | 27/11 |   [Public, private and protected data](./lessons/week-14/2-wednesday.md)   |  Nynne  |
+|  14 - Friday   | 29/11 |         [Classes & Objects Summary](./lessons/week-14/3-friday.md)         |  Aniko  |
+|  15 - Monday   | 02/12 |  [Multidisciplinary Project - Obligatory](./lessons/week-15/1-monday.md)   |  Nynne  |
+| 15 - Wednesday | 04/12 |                   Multidisciplinary Project - Obligatory                   |  Nynne  |
+|  15 - Friday   | 06/12 |                   Multidisciplinary Project - Obligatory                   |  Aniko  |
+|  16 - Monday   | 09/12 |                   Multidisciplinary Project - Obligatory                   |  Nynne  |
+| 16 - Wednesday | 11/12 |                                  No Class                                  |   NA    |
+|  16 - Friday   | 13/12 |                   Multidisciplinary Project - Obligatory                   |  Aniko  |
+|  17 - Monday   | 16/12 |                          Presentation of Project                           |  Nynne  |
+| 17 - Wednesday | 18/12 |                          Presentation of Project                           |  Nynne  |
 
-
+  
 ### Your Teachers
 
 #### Nynne Just Christoffersen
