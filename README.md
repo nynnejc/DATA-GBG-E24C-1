@@ -27,12 +27,12 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 |  05 - Monday   | 23/09 |            [Working with Files](./lessons/week-05/1-monday.md)             |  Nynne  |
 | 05 - Wednesday | 25/09 |           [Classes & Objects](./lessons/week-05/2-wednesday.md)            |  Nynne  |
 |  05 - Friday   | 27/09 | [Classes, Objects, Constructor Overloading](./lessons/week-05/3-friday.md) |  Aniko  |
-|  06 - Monday   | 30/09 |              [Classes Summary](./lessons/week-06/1-monday.md)              |  Nynne  |
+|  06 - Monday   | 30/09 |              [Objects State, Enum](./lessons/week-06/1-monday.md)          |  Nynne  |
 | 06 - Wednesday | 02/10 |                [Methods](./lessons/week-06/2-wednesday.md)                 |  Nynne  |
 |  06 - Friday   | 04/10 |       [Methods, Overloading Methods](./lessons/week-06/3-friday.md)        |  Aniko  |
 |  07 - Monday   | 07/10 |      [Design, Diagrams, Control Flow](./lessons/week-07/1-monday.md)       |  Nynne  |
 | 07 - Wednesday | 09/10 |            [Intro to Github](./lessons/week-07/2-wednesday.md)             |  Nynne  |
-|  07 - Friday   | 11/10 |             [Github exercises](./lessons/week-07/3-friday.md)              |  Aniko  |
+|  07 - Friday   | 11/10 |             [Classes Summary](./lessons/week-07/3-friday.md)               |  Aniko  |
 |      08 -      | 14/10 |                                Fall Holiday                                |   NA    |
 |      08 -      | 16/10 |                                Fall Holiday                                |   NA    |
 |      08 -      | 18/10 |                                Fall Holiday                                |   NA    |
@@ -49,7 +49,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 12 - Wednesday | 13/11 |              [Polymorphism](./lessons/week-12/2-wednesday.md)              |  Nynne  |
 |  12 - Friday   | 15/11 |                [Inheritance](./lessons/week-12/3-friday.md)                |  Aniko  |
 |  13 - Monday   | 18/11 |              [Inheritance II](./lessons/week-13/1-monday.md)               |  Nynne  |
-| 13 - Wednesday | 20/11 |                [Methods](./lessons/week-13/2-wednesday.md)                 |  Nynne  |
+| 13 - Wednesday | 20/11 |           [Method overload](./lessons/week-13/2-wednesday.md)              |  Nynne  |
 |  13 - Friday   | 22/11 |                [Methods II](./lessons/week-13/3-friday.md)                 |  Aniko  |
 |  14 - Monday   | 25/11 |    [Summary: Data types, methods, loops](./lessons/week-14/1-monday.md)    |  Nynne  |
 | 14 - Wednesday | 27/11 |   [Public, private and protected data](./lessons/week-14/2-wednesday.md)   |  Nynne  |

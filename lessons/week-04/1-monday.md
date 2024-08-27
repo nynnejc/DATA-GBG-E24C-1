@@ -1,15 +1,8 @@
 # Arrays
 
-Watch this video as support 👇
-
-https://youtu.be/ohrYtVa0CgM
-
 
 
 Arrays are used to store multiple elements. It can be seen as a list of things (in Java talk: an array of elements). Arrays are incredibly versatile and used everywhere. Here are a few examples
-
-
-
 
 
 

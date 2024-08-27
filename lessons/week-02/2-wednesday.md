@@ -2,16 +2,6 @@
 
 Conditionals is a way for a computer to handle decisions. Given some condition the program should be able to account for that. This is done using something called a conditions conditional statement. 
 
-
-
-Watch these videos as support 👇
-
-https://youtu.be/FeRTS6A6KvA
-
-https://youtu.be/YT2vWyJw2AM
-
-
-
 ## Boolean
 
 A boolean is a Java type that stores either `true` or `false`. 

@@ -12,11 +12,6 @@ When writing Java we often times have to do repetitive tasks.
 
 
 
-Watch this video as support 👇
-
-https://youtu.be/K9E43BJ2UQ8
-
-
 
 ## Lets begin with a good old metaphor
 
