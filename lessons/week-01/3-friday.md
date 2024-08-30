@@ -225,8 +225,6 @@ result = 3 * 5 / 5 + 1 // will this java code run??
 
 ## Exercises
 
-With the same person from the previous task go through these exercises
-
 
 
 ### Exercise 1.1
