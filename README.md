@@ -19,7 +19,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 | 02 - Wednesday | 04/09 |       [Workin with Inputs](./lessons/week-02/2-wednesday.md)               |  Nynne  |
 |  02 - Friday   | 06/09 |  [Introduction to Methods and Parameters](./lessons/week-02/3-friday.md)   |  Aniko  |
 |  03 - Monday   | 09/09 |            [Conditionals and Booleans](./lessons/week-03/1-monday.md)      |  Nynne  |
-| 03 - Wednesday | 11/09 |            [Loops Excercises](./lessons/week-03/2-wednesday.md)            |  Nynne  |
+| 03 - Wednesday | 11/09 |  [Summary: Loops, Methods, Input, Logic](./lessons/week-03/2-wednesday.md) |  Nynne  |
 |  03 - Friday   | 13/09 |  [Cumulative Algorithms, Switch Statement](./lessons/week-03/3-friday.md)  |  Aniko  |
 |  04 - Monday   | 16/09 |                  [Arrays](./lessons/week-04/1-monday.md)                   |  Nynne  |
 | 04 - Wednesday | 18/09 |               [Array List](./lessons/week-04/2-wednesday.md)               |  Nynne  |
