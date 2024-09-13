@@ -1,1 +1,1 @@
-# Cumulative Algorithms, Switch, sentinel loop, while loop
+# Blackjack Dice Game
