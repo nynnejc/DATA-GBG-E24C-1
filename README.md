@@ -44,7 +44,7 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 |  11 - Monday   | 04/11 |                   Interdisciplinary Project - Mandatory                    |  Nynne  |
 | 11 - Wednesday | 06/11 |                          Presentation of Projects                          |  Nynne  |
 |  11 - Friday   | 08/11 |                 [Polymorphism](./lessons/week-11/3-friday.md)              |  Aniko  |
-|  12 - Monday   | 11/11 |         [Objects inside Objects](./lessons/week-12/1-monday.md)            |  Nynne  |
+|  12 - Monday   | 11/11 |                      [](./lessons/week-12/1-monday.md)                     |  Nynne  |
 | 12 - Wednesday | 13/11 |             [Encapsulation](./lessons/week-12/2-wednesday.md)              |  Nynne  |
 |  12 - Friday   | 15/11 |                 [Interfaces](./lessons/week-12/3-friday.md)                |  Aniko  |
 |  13 - Monday   | 18/11 |          [Errorhandling Try Catch](./lessons/week-13/1-monday.md)          |  Nynne  |
