@@ -25,9 +25,9 @@ This is an introductory course in programming with Java at Københavns Erhvervsa
 |  04 - Friday   | 20/09 |                [Arrays Continued](./lessons/week-04/3-friday.md) |  Aniko  |
 |  05 - Monday   | 23/09 |            [Objects and Classes](./lessons/week-05/1-monday.md)            |  Nynne  |
 | 05 - Wednesday | 25/09 |          [The State of Objects](./lessons/week-05/2-wednesday.md)          |  Nynne  |
-|  05 - Friday   | 27/09 |    [Instance Methods and Static Methods](./lessons/week-05/3-friday.md)    |  Aniko  |
-|  06 - Monday   | 30/09 |          [Inheritance I](./lessons/week-06/1-monday.md)           |  Nynne  |
-| 06 - Wednesday | 02/10 |                    [Inheritance II](./lessons/week-06/2-wednesday.md)                    |  Nynne  |
+|  05 - Friday   | 27/09 | [Objects, Classes, Overloading Constructor](./lessons/week-05/3-friday.md) |  Aniko  |
+|  06 - Monday   | 30/09 |                [Inheritance I](./lessons/week-06/1-monday.md)              |  Nynne  |
+| 06 - Wednesday | 02/10 |               [Inheritance II](./lessons/week-06/2-wednesday.md)           |  Nynne  |
 |  06 - Friday   | 04/10 |             [ArrayList Search](./lessons/week-06/3-friday.md)              |  Aniko  |
 |  07 - Monday   | 07/10 |              [ArrayList Edit](./lessons/week-07/1-monday.md)               |  Nynne  |
 | 07 - Wednesday | 09/10 |            [Intro to Github](./lessons/week-07/2-wednesday.md)             |  Nynne  |

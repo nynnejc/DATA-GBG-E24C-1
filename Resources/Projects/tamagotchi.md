@@ -89,9 +89,9 @@ Hello, would you like to create a dog or a cat? Press 1 for dog and 2 for cat
 1
 
 Ahh you would like to create a cat, what should the name of the cat be?
-Miaui McLickALot
+Moo Deng
 
-Okay, here is your cat Miaui McLickALot
+Okay, here is your cat Moo Deng
  /\_/\
 ( o.o )
  > ^ <
@@ -101,7 +101,7 @@ What would you now like to do?
 3 - sleep
 1
 
-Miaui McLickALot is running after a ball, now her energy went down 1 and her hunger went up 1
+Moo Deng is running after a ball, now her energy went down 1 and her hunger went up 1
 What would you now like to do?
 1 - play
 2 - feed
@@ -112,7 +112,7 @@ What would you now like to do?
 ZZZzz /,`.-'`'    -.  ;-;;,_
      |,4-  ) )-,_. ,\ (  `'-'
     '---''(_/--'  `-'\_)  
-Miaui McLickALot now has full energy!
+Moo Deng now has full energy!
 What would you now like to do?
 1 - play
 2 - feed
