@@ -11,7 +11,6 @@ A tamagotchi had to be kept alive. You could feed it, play with it, dress it etc
 ![T](https://assets.partyking.org/img/products/1300/tamagotchi-original-1.jpg)
 
 
-
 ## Tamagotchi details
 
 We have to create 4 different classes
@@ -121,8 +120,6 @@ What would you now like to do?
 
 This is just an example please come up with your own virtual pet 😸
 
-
-
 ## Optional tasks
 
 - Make the pet objects interact with each other
@@ -132,15 +129,7 @@ This is just an example please come up with your own virtual pet 😸
 
 
 
-## Handin
-
-Hand in on fronter here: https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=927870
-
-Hand in via git!
-
-
-
-## Handin checklist
+## checklist
 
 - Have you tested that the code works?
 - Have you written comments to the code?
